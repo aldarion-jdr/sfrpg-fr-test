@@ -22,11 +22,7 @@
   "scripts": [ ],
   "styles": [],
   "packs": [],
-  "languages": [{
-  	"lang": "fr",
-  	"name": "Français"
-  }],
-
+  "languages": [],
   "url": "https://github.com/aldarion-jdr/sfrpg-fr-test",
   "manifest": "https://github.com/aldarion-jdr/sfrpg-fr-test/raw/main/module.json",
   "download": "https://github.com/aldarion-jdr/sfrpg-fr-test/raw/main/sfrpg-fr-translation.zip"
