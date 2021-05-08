@@ -26,7 +26,7 @@
   "languages": [{
   	"lang": "fr",
   	"name": "Français",
-  	"path": "fr.json"  	
+  	"path": "fr.jso"  	
   }],
   
   "url": "https://github.com/aldarion-jdr/sfrpg-fr-test",
