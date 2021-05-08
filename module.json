@@ -29,8 +29,8 @@
   	"path": ""  	
   }],
   
-  "url": "",
-  "manifest": "https://drive.google.com/file/d/1DQObzivUl5mPQyFM-3_o3L8sYuyoqfpe/view?usp=sharing",   
-  "download": "https://drive.google.com/file/d/1Thk2hF7mEdbPak-8VdSgSexlhuGMxvOX/view?usp=sharing" 
+  "url": "https://github.com/aldarion-jdr/sfrpg-fr-test",
+  "manifest": "https://raw.githubusercontent.com/aldarion-jdr/sfrpg-fr-test/main/module.json",   
+  "download": "https://github.com/aldarion-jdr/sfrpg-fr-test/raw/main/sfrpg-fr-translation.zip" 
 }
 
