@@ -24,8 +24,8 @@
   "packs": [],
   "languages": [{
   	"lang": "fr",
-  	"name": "Français",
-  	"path": "fr.json"  	
+  	"name": "French",
+  	"path": "lang/fr.json"  	
   }],
   "url": "https://github.com/aldarion-jdr/sfrpg-fr-test",
   "manifest": "https://github.com/aldarion-jdr/sfrpg-fr-test/raw/main/module.json",
