@@ -2,14 +2,15 @@
   "name": "sfrpg-fr-translation",
   "title": "Starfinder - Traduction en Français",
   "description": "Module basé sur Babele de traduction du système Starfinder en Français.",
-  "version": "0.1.1",
+  "version": "0.1.12",
   "minimumCoreVersion" : "0.7.1",
   "compatibleCoreVersion": "1.0.1",
   "author": "Aldarion",
   "dependencies": [
 	{
       "name": "sfrpg",
-	  "type": "system"
+	  "type": "system",
+	  "version": "0.9.0"
     },
     {
       "name": "babele",
