@@ -1392,7 +1392,7 @@
 		{
 				"id": "Weapon Specialization (Combat)",
 				"name": "Spécialisation martiale (Combat)",
-				"description": "<p>You know how to get the full damage out of a weapon type your class doesn’t normally use.<br><strong>Prerequisites</strong>: Character level 3rd, proficiency with selected weapon type.</p><hr><p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\"><strong>Benefit</strong>: Choose one weapon type (small arms, longarms, heavy weapons, etc.). You gain specialization in that weapon type, which means you add your character level to damage with the selected weapon type, or half your character level for small arms or operative melee weapons. You can never have specialization in grenades.</span></p>",
+				"description": "<p>Au niveau 3, toutes les classes conf&egrave;rent une sp&eacute;cialisation dans le maniement de certains groupes d&rsquo;armes, ce qui augmente les d&eacute;g&acirc;ts que vous infligez avec celles-ci. Voir le don Sp&eacute;cialisation martiale &agrave; la page 162 pour plus d&rsquo;informations. </p>",
 				"source": "RDB p.162"
 		}
 	]
