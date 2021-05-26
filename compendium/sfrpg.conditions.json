@@ -9,7 +9,7 @@
 		{
 			"id": "Asleep",
 			"name": "Endormi",
-			"description": "<p>&gt;@Compendium[sfrpg.rules.0yJjfyvWg5pDLcVR]{Conditions}</p><hr /><p>Vous dormez et &ecirc;tes @Compendium[world.conditions-fr.RxvbSB9ZgSCBu2jw]{Sans d&eacute;fense}. Tant que vous &ecirc;tes endormi, vous subissez un malus de -10 aux tests de Perception effectu&eacute;s pour rep&eacute;rer quelque chose. Si vous r&eacute;ussissez un test de Perception pour rep&eacute;rer quelque chose malgr&eacute; ce malus, vous vous r&eacute;veillez automatiquement. Vous pouvez &eacute;galement vous r&eacute;veiller si vous &ecirc;tes gifl&eacute; ou bless&eacute;. Un alli&eacute; peut vous r&eacute;veiller par une action simple.</p>",
+			"description": "<p>&gt;@Compendium[sfrpg.rules.0yJjfyvWg5pDLcVR]{Conditions}</p><hr /><p>Vous dormez et &ecirc;tes @Compendium[sfrpg.conditions.RxvbSB9ZgSCBu2jw]{Sans d&eacute;fense}. Tant que vous &ecirc;tes endormi, vous subissez un malus de -10 aux tests de Perception effectu&eacute;s pour rep&eacute;rer quelque chose. Si vous r&eacute;ussissez un test de Perception pour rep&eacute;rer quelque chose malgr&eacute; ce malus, vous vous r&eacute;veillez automatiquement. Vous pouvez &eacute;galement vous r&eacute;veiller si vous &ecirc;tes gifl&eacute; ou bless&eacute;. Un alli&eacute; peut vous r&eacute;veiller par une action simple.</p>",
 			"source":"RDB p.275"
 		},
 		{
