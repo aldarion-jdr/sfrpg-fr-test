@@ -1,0 +1,1283 @@
+{
+	"label": "Equipement",
+	"mapping": {
+		"frName": "name",
+		"frDescription": "data.description.value",
+		"frSource": "data.source",
+		"rangeValue": "data.range.value",
+		"rangeUnits": "data.range.units",
+		"areaValue": "data.area.value",
+		"areaUnits": "data.area.units"
+	},
+	"entries": {
+		"Anarchic": {
+			"frName": "Anarchique",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">The <em>anarchic </em>fusion imbues a weapon with divine energy from a chaotic deity. Any attacks with the weapon are chaotic-aligned. Damage from the weapon bypasses DR/chaotic and ignores the energy resistance of lawful dragons and lawful outsiders. The <em>anarchic </em>fusion can&rsquo;t be added to weapons that have the <em>axiomatic </em>fusion.&nbsp;</span></p>",
+			"frSource": "RDB p.192",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Automated loader": {
+			"frName": "Chargeur automatique",
+			"frDescription": "<p>Cet appareil, fix&eacute; &agrave; une armure assist&eacute;e, est constitu&eacute; d&rsquo;un petit bras m&eacute;canis&eacute; et d&rsquo;un petit compartiment qui peut contenir jusqu&rsquo;&agrave; un volume de 2 de munitions et de batteries. Vous pouvez activer le chargeur automatique en tant qu&rsquo;action de mouvement pour recharger une arme install&eacute;e sur un emplacement d&rsquo;arme de l&rsquo;armure assist&eacute;e (mais par pour remplacer les propres batteries de l&rsquo;armure). Les capacit&eacute;s qui vous permettent de recharger plus rapidement qu&rsquo;avec une action de mouvement ne peuvent &ecirc;tre utilis&eacute;es avec un chargeur automatique.</p> <p>Cette am&eacute;lioration ne peut &ecirc;tre install&eacute;e que sur des armures assist&eacute;es.</p>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Axiomatic": {
+			"frName": "Axiomatique",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">The <em>axiomatic </em>fusion imbues a weapon with divine energy from a lawful deity. Any attacks with the weapon are lawful-aligned. Damage from the weapon bypasses DR/lawful and ignores the energy resistance of chaotic dragons and chaotic outsiders. The <em>axiomatic </em>fusion can’t be added to weapons that have the <em>anarchic </em>fusion.&nbsp;</span></p>",
+			"frSource": "RDB p.193",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Backup generator": {
+			"frName": "Générateur de secours",
+			"frDescription": "<p>Vous pouvez connecter des objets &eacute;lectriques, comme les batteries, &agrave; ce g&eacute;n&eacute;rateur miniature pour les recharger. L&rsquo;&eacute;lectricit&eacute; provient de l&rsquo;&eacute;nergie cin&eacute;tique g&eacute;n&eacute;r&eacute;e par vos mouvements et permet d&rsquo;accumuler 1 charge toutes les 10 minutes de d&eacute;placement. On ne peut brancher plus d&rsquo;un objet &agrave; la fois &agrave; un m&ecirc;me g&eacute;n&eacute;rateur de secours et le g&eacute;n&eacute;rateur ne produit aucune &eacute;nergie quand vous &ecirc;tes stationnaire ou au repos.</p>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Bleeding": {
+			"frName": "Sanguinaire",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">The <em>bleeding </em>fusion weaves entropic energy into the weapon’s form. The weapon gains the @Compendium[sfrpg.rules.O5GDQUKPCJ9Zbnfj]{Bleed} critical hit effect (see page 182). The amount of damage taken each round from this effect is equal to 1d6 per 5 levels of the weapon, rounded down. If the weapon already has a critical hit effect, when you score a critical hit, you can apply either the weapon’s normal critical hit effect or the @Compendium[sfrpg.rules.O5GDQUKPCJ9Zbnfj]{Bleed} effect. Only weapons that deal piercing or slashing damage can have this fusion.&nbsp;</span></p>",
+			"frSource": "RDB p.195",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Bonding Epoxy": {
+			"frName": "Colle époxy",
+			"frDescription": "<p>Une colle &eacute;poxy est un plastique adh&eacute;sif constitu&eacute; de deux &eacute;l&eacute;ments stock&eacute;s dans un pistolet &agrave; colle qui m&eacute;lange ces &eacute;l&eacute;ments au moment de leur utilisation. On peut l&rsquo;utiliser cinq fois et il ne peut </p><p>&ecirc;tre recharg&eacute;. Il faut en racheter un nouveau.</p><p>Par une action complexe, vous pouvez recouvrir une surface de 30 centim&egrave;tres de c&ocirc;t&eacute; avec la colle &eacute;poxy. Tout ce qu&rsquo;on applique sur cette surface pendant 1d4 rounds y est coll&eacute; une fois la colle s&egrave;che. Cela n&eacute;cessite une action complexe &agrave; chaque round pour maintenir les deux objets en contact et tout ce qui pourrait r&eacute;sister (comme une cr&eacute;ature) doit &ecirc;tre maintenu ou sans d&eacute;fense afin de ne pas bouger pendant que le produit s&egrave;che. Une fois l&rsquo;&eacute;poxy m&eacute;lang&eacute;, la colle doit &ecirc;tre utilis&eacute;e en moins d&rsquo;une minute ou elle perd ses propri&eacute;t&eacute;s collantes.</p><p>S&eacute;parer deux objets coll&eacute;s avec de l&rsquo;&eacute;poxy n&eacute;cessite de r&eacute;ussir un jet de Force DD 20. Si les objets sont parfaitement ajust&eacute;s (ce qui n&eacute;cessite 1 minute et un test d&rsquo;Ing&eacute;nierie DD 20), le DD du jet de Force pour les s&eacute;parer est de 25.</p>",
+			"frSource": "RDB p.230",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Called": {
+			"frName": "Rappel",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">A weapon with the <em>called </em>fusion can be teleported to its owner’s hand as a swift action, even if the weapon is in the possession of another creature. This ability has a maximum range of 100 feet, and effects that block teleportation prevent the return of a <em>called </em>weapon. A weapon with the <em>called </em>fusion must be in your possession for at least 24 hours for this ability to function.&nbsp;</span></p>",
+			"frSource": "RDB p.195",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Clothing, Environmental": {
+			"frName": "Vêtements, environnementaux",
+			"frDescription": "<h2>V&ecirc;tements, environnementaux</h2><p>Les v&ecirc;tements sont produits en masse &agrave; travers les Mondes du Pacte et aucun habitant de ce syst&egrave;me n&rsquo;en manque. On peut les porter aussi bien sous que par-dessus une armure et leurs avantages s&rsquo;appliquent dans presque n&rsquo;importe quelles situations. Il existe diff&eacute;rents types de v&ecirc;tements en fonction de leur utilisation.</p><p>Chaque tenue environnementale est con&ccedil;ue en fonction d&rsquo;un type de climat et utiliser une tenue dans un environnement extr&ecirc;me pour lequel elle est con&ccedil;ue octroie certains avantages : climats froids (bonus circonstanciel de +2 aux jets de Vigueur contre les dangers environnementaux li&eacute;s au froid), temp&ecirc;tes de sable (r&eacute;duit de 1 les d&eacute;g&acirc;ts des temp&ecirc;tes de sable avec des vents de temp&ecirc;te), gravit&eacute; extr&ecirc;me (r&eacute;duit de 1 les d&eacute;g&acirc;ts des environnements soumis &agrave; une gravit&eacute; extr&ecirc;me), climats chauds (bonus circonstanciel de +2 aux jets de Vigueur contre les dangers environnementaux li&eacute;s &agrave; la chaleur), radiations (bonus circonstanciel de +1 aux jets de sauvegarde contre les effets des radiations) et gravit&eacute; z&eacute;ro (bonus circonstanciel de +2 aux tests d&rsquo;Acrobaties ou d&rsquo;Athl&eacute;tisme pour arr&ecirc;ter de se d&eacute;placer ou grimper &agrave; l&rsquo;aide de prises en gravit&eacute; 0). Voir le Chapitre 11 pour plus d&rsquo;informations sur les dangers environnementaux.</p><p>Les avantages d&rsquo;une tenue environnementale peuvent s&rsquo;ajouter &agrave; un autre type de v&ecirc;tements (y compris une autre tenue environnementale) en doublant puis en additionnant le co&ucirc;t des deux v&ecirc;tements.</p>",
+			"frSource": "RDB p.231",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Clothing, Everyday": {
+			"frName": "Vêtements, quotidiens",
+			"frDescription": "<h2>V&ecirc;tements, Quotidiens</h2><p>Les v&ecirc;tements sont produits en masse &agrave; travers les Mondes du Pacte et aucun habitant de ce syst&egrave;me n&rsquo;en manque. On peut les porter aussi bien sous que par-dessus une armure et leurs avantages s&rsquo;appliquent dans presque n&rsquo;importe quelles situations. Il existe diff&eacute;rents types de v&ecirc;tements en fonction de leur utilisation.</p><p>Les v&ecirc;tements con&ccedil;us pour une utilisation quotidienne sont extr&ecirc;mement vari&eacute;s aussi bien dans leur style que dans leur coloris et bon nombre d&rsquo;entre eux sont le reflet d&rsquo;une culture locale ou plan&eacute;taire. La plupart des personnages choisissent leurs v&ecirc;tements quotidiens en fonction de leurs pr&eacute;f&eacute;rences</p>",
+			"frSource": "RDB p.231",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Clothing, Formal": {
+			"frName": "Vêtements, habillés",
+			"frDescription": "<h2>V&ecirc;tements, Habill&eacute;s</h2><p>Les v&ecirc;tements sont produits en masse &agrave; travers les Mondes du Pacte et aucun habitant de ce syst&egrave;me n&rsquo;en manque. On peut les porter aussi bien sous que par-dessus une armure et leurs avantages s&rsquo;appliquent dans presque n&rsquo;importe quelles situations. Il existe diff&eacute;rents types de v&ecirc;tements en fonction de leur utilisation.</p><p>Les tenues habill&eacute;es sont pr&eacute;vues pour certaines occasions comme un mariage ou des fun&eacute;railles et elles sont diff&eacute;rentes en fonction de chaque plan&egrave;te et m&ecirc;me de chaque culture. Ne pas &ecirc;tre habill&eacute; comme il convient lors de telles occasions peut, &agrave; la discr&eacute;tion du MJ, vous valoir un malus de &ndash;4 &agrave; vos tests de Bluff, de Diplomatie et de D&eacute;guisement.</p>",
+			"frSource": "RDB p.231",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Clothing, Professional": {
+			"frName": "Vêtements, utilitaires",
+			"frDescription": "<h2>V&ecirc;tements, Utilitaires</h2><p>Les v&ecirc;tements sont produits en masse &agrave; travers les Mondes du Pacte et aucun habitant de ce syst&egrave;me n&rsquo;en manque. On peut les porter aussi bien sous que par-dessus une armure et leurs avantages s&rsquo;appliquent dans presque n&rsquo;importe quelles situations. Il existe diff&eacute;rents types de v&ecirc;tements en fonction de leur utilisation.</p><p>Les tenues utilitaires sont con&ccedil;ues en fonction des t&acirc;ches correspondant &agrave; une comp&eacute;tence professionnelle et doivent r&eacute;pondre aux besoins de ceux qui les utilisent tout en renfor&ccedil;ant leur allure de professionnel et d&rsquo;expert. Vous b&eacute;n&eacute;ficiez d&rsquo;un bonus circonstanciel de +1 &agrave; vos tests de Profession pour gagner votre vie quand vous portez une tenue utilitaire appropri&eacute;e.</p>",
+			"frSource": "RDB p.231",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Clothing, Travel": {
+			"frName": "Vêtements, de voyage",
+			"frDescription": "<h2>V&ecirc;tements, de voyage</h2><p>Les v&ecirc;tements sont produits en masse &agrave; travers les Mondes du Pacte et aucun habitant de ce syst&egrave;me n&rsquo;en manque. On peut les porter aussi bien sous que par-dessus une armure et leurs avantages s&rsquo;appliquent dans presque n&rsquo;importe quelles situations. Il existe diff&eacute;rents types de v&ecirc;tements en fonction de leur utilisation.</p><p>Une tenue de voyage est plus confortable pour parcourir de longue distance et facilite vos d&eacute;placements. Avec une telle tenue, vous ajoutez 3 km &agrave; la distance parcourue pour un d&eacute;placement longue distance de huit heures. Vous b&eacute;n&eacute;ficiez &eacute;galement d&rsquo;un bonus circonstanciel de +1 &agrave; vos jets de Constitution pour &eacute;viter de subir des d&eacute;g&acirc;ts non l&eacute;taux lors d&rsquo;une marche forc&eacute;e. Voir Le d&eacute;placement sur longue distance page 258 pour plus de d&eacute;tails.</p>",
+			"frSource": "RDB p.231",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Corrosive": {
+			"frName": "Corrosive",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">The <em>corrosive </em>fusion weaves the destructive power of acid into the weapon’s form. Half the weapon’s damage type is replaced with acid damage. You can activate or deactivate the <em>corrosive </em>fusion as a swift action. If the weapon already deals two types of damage, replace one of them with acid (you decide which damage type is replaced each time you activate the <em>corrosive </em>fusion). You can add this fusion only to a weapon that does not already deal acid damage. This fusion never causes a weapon that normally targets KAC to target EAC.&nbsp;</span></p>",
+			"frSource": "RDB p.193",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Cryo grenade I": {
+			"frName": "Grenade cryogénique I",
+			"frDescription": "<p>Cryo grenades release a blast of supercooled chemicals on impact, which immediately coalesce into freezing particles.</p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Cryo grenade II": {
+			"frName": "Grenade cryogénique II",
+			"frDescription": "<p>Cryo grenades release a blast of supercooled chemicals on impact, which immediately coalesce into freezing particles.</p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Cryo grenade III": {
+			"frName": "Grenade cryogénique III",
+			"frDescription": "<p>Cryo grenades release a blast of supercooled chemicals on impact, which immediately coalesce into freezing particles.</p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Cryo Grenade IV": {
+			"frName": "Grenade cryogénique IV",
+			"frDescription": "<p>Cryo grenades release a blast of supercooled chemicals on impact, which immediately coalesce into freezing particles.</p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Deflective reinforcement": {
+			"frName": "Revêtement déflecteur",
+			"frDescription": "<p>Cette am&eacute;lioration conf&egrave;re &agrave; votre armure une texture lisse et glissante. Votre armure vous conf&egrave;re RD 5/&mdash;. De plus, votre malus d&rsquo;armure est r&eacute;duit de 2 points quand vous tentez un test d&rsquo;Acrobaties pour vous &eacute;chapper.</p>",
+			"frSource": "RDB p.207",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Defrex hide": {
+			"frName": "Peau de défrex",
+			"frDescription": "<p>Fabriqu&eacute;e avec la peau d&rsquo;un animal f&eacute;roce natif de Vesk-2, cette armure l&eacute;g&egrave;re est tr&egrave;s populaire aupr&egrave;s des vesks mais plus rarement port&eacute;e par les membres des autres races. Des morceaux de la peau &eacute;paisse de la cr&eacute;ature sont cousus ensemble avec des fils m&eacute;talliques et la tenue est renforc&eacute;e avec des clous ou des &eacute;cailles m&eacute;talliques.</p>",
+			"frSource": "RDB p.202",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Devastating": {
+			"frName": "Dévastatrice",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">You can apply the <em>devastating </em>fusion only to a weapon with two or more critical hit effects. When you score a critical hit with a weapon that has the <em>devastating </em>fusion, you can select two of the critical hit effects to apply to the target (even if you are normally required to select just one critical hit effect).&nbsp;</span></p>",
+			"frSource": "RDB p.193",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Dispelling": {
+			"frName": "Dissipation",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">A weapon with the <em>dispelling </em>fusion gathers spare wisps of latent magic during combat, which it can then unleash in a focused effort to dispel magic. The weapon gains dispelling as a critical hit effect in combat. This ability manifests only in high-stakes situations, so you must be in combat and facing a significant enemy (see page 242) for it to gain this critical hit effect. If there’s any doubt about whether you’re in combat or able to access the critical hit effect, the GM decides. If the weapon already has a critical hit effect, when you score a critical hit, you can apply either the weapon’s normal critical hit effect or the dispelling effect. A target affected by the dispelling critical hit effect is the subject of a targeted <em>dispel magic</em>, as the spell, using the weapon’s item level as the dispel check’s caster level.&nbsp;</span></p>",
+			"frSource": "RDB p.193",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Disruptive": {
+			"frName": "Disruptive",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">The <em>disruptive </em>fusion imbues a weapon with powerful positive energy designed to disrupt the magical forces that allow undead to exist. The weapon ignores any DR and energy resistance of undead creatures. Only weapons that deal bludgeoning damage can benefit from this fusion.&nbsp;</span></p>",
+			"frSource": "RDB p.193",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Durable": {
+			"frName": "Résistance",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">The <em>durable </em>fusion uses magical runes and reinforcements to significantly increase a weapon’s toughness. When determining a weapon’s hardness, Hit Points, and saving throws, treat its item level as being 5 higher. For more about calculating these values, see Breaking Objects on page 409.&nbsp;</span></p>",
+			"frSource": "RDB p.195",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Electrostatic field, mk 1": {
+			"frName": "Champ électrostatique, Mk 1",
+			"frDescription": "<p>Ce champ qui couvre votre armure vous conf&egrave;re une r&eacute;sistance &agrave; l&rsquo;&eacute;lectricit&eacute; et toute cr&eacute;ature qui vous touche, ou vous inflige des d&eacute;g&acirc;ts avec une arme de corps &agrave; corps, subit des d&eacute;g&acirc;ts d&rsquo;&eacute;lectricit&eacute;. La r&eacute;sistance dont vous b&eacute;n&eacute;ficiez et les d&eacute;g&acirc;ts inflig&eacute;s d&eacute;pendent du mod&egrave;le comme indiqu&eacute; ci-apr&egrave;s.</p> <ul> <li><strong>Mk 1:</strong> R&eacute;sistance 5 et 1d6 points de d&eacute;g&acirc;ts d&rsquo;&eacute;lectricit&eacute;.</li> <li><strong>Mk 2:</strong> R&eacute;sistance 10 et 2d6 points de d&eacute;g&acirc;ts d&rsquo;&eacute;lectricit&eacute;.</li> <li><strong>Mk 3:</strong> R&eacute;sistance 15 et 3d6 points de d&eacute;g&acirc;ts d&rsquo;&eacute;lectricit&eacute;.</li> </ul>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Electrostatic field, mk 2": {
+			"frName": "Champ électrostatique, Mk 2",
+			"frDescription": "<p>Ce champ qui couvre votre armure vous conf&egrave;re une r&eacute;sistance &agrave; l&rsquo;&eacute;lectricit&eacute; et toute cr&eacute;ature qui vous touche, ou vous inflige des d&eacute;g&acirc;ts avec une arme de corps &agrave; corps, subit des d&eacute;g&acirc;ts d&rsquo;&eacute;lectricit&eacute;. La r&eacute;sistance dont vous b&eacute;n&eacute;ficiez et les d&eacute;g&acirc;ts inflig&eacute;s d&eacute;pendent du mod&egrave;le comme indiqu&eacute; ci-apr&egrave;s.</p> <ul> <li><strong>Mk 1:</strong> R&eacute;sistance 5 et 1d6 points de d&eacute;g&acirc;ts d&rsquo;&eacute;lectricit&eacute;.</li> <li><strong>Mk 2:</strong> R&eacute;sistance 10 et 2d6 points de d&eacute;g&acirc;ts d&rsquo;&eacute;lectricit&eacute;.</li> <li><strong>Mk 3:</strong> R&eacute;sistance 15 et 3d6 points de d&eacute;g&acirc;ts d&rsquo;&eacute;lectricit&eacute;.</li> </ul>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Electrostatic field, mk 3": {
+			"frName": "Champ électrostatique, Mk 3",
+			"frDescription": "<p>Ce champ qui couvre votre armure vous conf&egrave;re une r&eacute;sistance &agrave; l&rsquo;&eacute;lectricit&eacute; et toute cr&eacute;ature qui vous touche, ou vous inflige des d&eacute;g&acirc;ts avec une arme de corps &agrave; corps, subit des d&eacute;g&acirc;ts d&rsquo;&eacute;lectricit&eacute;. La r&eacute;sistance dont vous b&eacute;n&eacute;ficiez et les d&eacute;g&acirc;ts inflig&eacute;s d&eacute;pendent du mod&egrave;le comme indiqu&eacute; ci-apr&egrave;s.</p> <ul> <li><strong>Mk 1:</strong> R&eacute;sistance 5 et 1d6 points de d&eacute;g&acirc;ts d&rsquo;&eacute;lectricit&eacute;.</li> <li><strong>Mk 2:</strong> R&eacute;sistance 10 et 2d6 points de d&eacute;g&acirc;ts d&rsquo;&eacute;lectricit&eacute;.</li> <li><strong>Mk 3:</strong> R&eacute;sistance 15 et 3d6 points de d&eacute;g&acirc;ts d&rsquo;&eacute;lectricit&eacute;.</li> </ul>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Entangling": {
+			"frName": "Enchevêtrement",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">A weapon with the <em>entangling </em>fusion gains the entangle weapon special property (see page 181). Only a single attack each day may benefit from this property, and you must announce before making an attack that it is an entangle attack. Regardless of how many targets you can hit with a single attack from your weapon, only a single target of your choice is affected by the entangle condition. The entangle effect ends after 1d4 rounds if the target has not already escaped it. Only weapons that do bludgeoning, piercing, slashing, or cold damage can benefit from this fusion.&nbsp;</span></p>",
+			"frSource": "RDB p.194",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Exit Pod": {
+			"frName": "Harnais de dégagement",
+			"frDescription": "<p>Ce harnais s&rsquo;installe dans une armure assist&eacute;e ou est directement int&eacute;gr&eacute; &agrave; la structure d&rsquo;une armure lourde. Il vous permet de vous extraire de l&rsquo;armure par une action de mouvement au lieu d&rsquo;une action&nbsp;complexe. Il ne modifie en rien le temps n&eacute;cessaire &agrave; s&rsquo;installer dans l&rsquo;armure.</p> <p>Cette am&eacute;lioration ne peut &ecirc;tre install&eacute;e que dans des armures lourdes ou des armures assist&eacute;es.</p>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Filtered rebreather": {
+			"frName": "Recycleur d'air filtré",
+			"frDescription": "<p>Ce recycleur am&eacute;lior&eacute; renforce le syst&egrave;me d&rsquo;a&eacute;ration de votre armure en fournissant un air plus pur et en filtrant les toxines et les vapeurs toxiques les plus communes. Les armures dot&eacute;es de ce syst&egrave;me peuvent fournir de l&rsquo;air frais pendant un nombre de semaines &eacute;gal &agrave; leur niveau. Vous gagnez &eacute;galement r&eacute;sistance &agrave; l&rsquo;acide 5 et un bonus de +2 &agrave; vos jets de sauvegarde contre le poison et les maladies.</p>",
+			"frSource": "RDB p.207",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Fine Art": {
+			"frName": "Oeuvre d’art",
+			"frDescription": "<p>Les &oelig;uvres d&rsquo;art peuvent &ecirc;tre absolument n&rsquo;importe quoi mais, en tant que marchandises, il sera plus facile de vendre ou d&rsquo;acheter des objets uniques et bien concrets (comme des peintures ou des sculptures) que les &oelig;uvres d&eacute;mat&eacute;rialis&eacute;es de performances artistiques&nbsp;(bien que, par exemple, l&rsquo;unique copie d&rsquo;une fameuse p i&egrave;ce de th&eacute;&acirc;tre vesk peut avoir de la valeur jusqu&rsquo;&agrave; ce qu&rsquo;elle soit diffus&eacute;e plus largement). Une &oelig;uvre d&rsquo;art peut avoir n&rsquo;importe quel volume et co&ucirc;ter n&rsquo;importe quel prix, au choix du MJ.</p><p>&nbsp;</p><p><strong>Le prix varie;&nbsp;Le volume varie</strong></p>",
+			"frSource": "RDB p.232",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Flaming": {
+			"frName": "Enflamée",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">The <em>flaming </em>fusion imbues a weapon with the fiery power of a star. Half the weapon’s damage type is replaced with fire damage. You can activate or deactivate the <em>flaming </em>fusion as a swift action. If the weapon already deals two types of damage, replace one of them with fire (you decide which damage type to replace each time you activate the <em>flaming </em>fusion). You can add this fusion only to a weapon that does not already deal fire damage. This fusion never causes a weapon that normally targets KAC to target EAC.&nbsp;</span></p>",
+			"frSource": "RDB p.194",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Flash grenade I": {
+			"frName": "Grenade aveuglante I",
+			"frDescription": "<p>When detonated, a flash grenade releases a pulse of intense radiance.</p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Flash grenade II": {
+			"frName": "Grenade aveuglante II",
+			"frDescription": "<p>When detonated, a flash grenade releases a pulse of intense radiance.</p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Flash grenade III": {
+			"frName": "Grenade aveuglante III",
+			"frDescription": "<p>When detonated, a flash grenade releases a pulse of intense radiance.</p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Flash grenade IV": {
+			"frName": "Grenade aveuglante IV",
+			"frDescription": "<p>When detonated, a flash grenade releases a pulse of intense radiance.</p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Force field, black": {
+			"frName": "Champ de force, noir",
+			"frDescription": "<p>Vous pouvez activer ou d&eacute;sactiver le champ de force de votre armure par une action simple. Une fois actif, l&rsquo;appareil g&eacute;n&egrave;re un champ de force invisible qui vous enveloppe ainsi que tous les objets que vous transportez ou dont vous &ecirc;tes &eacute;quip&eacute;s. Le champ bloque les solides et les liquides mais pas les gaz ni la lumi&egrave;re (y compris les rayons laser). Vous pouvez respirer normalement quand le champ est activ&eacute; mais vous ne pouvez pas manger ni boire.</p> <p>Tant qu&rsquo;un champ de force est actif, vous gagnez un nombre de points de vie temporaires qui d&eacute;pend de la puissance du champ. Tous les d&eacute;g&acirc;ts que vous subissez sont d&rsquo;abord retranch&eacute;s aux points de vie temporaires. Un champ de force se r&eacute;g&eacute;n&egrave;re rapidement ce qui signifie qu&rsquo;il r&eacute;cup&egrave;re un certain nombre de points de vie temporaires &agrave; chaque round &agrave; la fin de votre tour jusqu&rsquo;&agrave; son maximum. Si les points de vie temporaires du champ de force tombent &agrave; 0, il est inactif jusqu&rsquo;&agrave; la fin de votre prochain tour au moment o&ugrave; sa r&eacute;g&eacute;n&eacute;ration rapide lui redonne des points de vie. La capacit&eacute; en nombre de charges, le nombre de points de vie temporaires octroy&eacute;s et la rapidit&eacute; de r&eacute;g&eacute;n&eacute;ration d&eacute;pendent de la couleur du champ de force. Un champ de force consomme 1 charge par round.</p> <p>Les champs de force les plus puissants ont &eacute;galement la capacit&eacute; de fortification qui conf&egrave;re une probabilit&eacute; qu&rsquo;une attaque critique soit consid&eacute;r&eacute;e comme une attaque normale, infligeant des d&eacute;g&acirc;ts normaux sans b&eacute;n&eacute;ficier de son effet critique. Le jet de pourcentage est lanc&eacute; avant de d&eacute;terminer les d&eacute;g&acirc;ts du coup critique. Si un champ de force est inactif, sa capacit&eacute; de fortification ne fonctionne pas. On ne peut installer plus d&rsquo;un champ de force sur une armure.</p> <table> <tbody> <tr> <th>Couleur</th> <th>Capacit&eacute;</th> <th>PV Temp.</th> <th>R&eacute;g&eacute;n&eacute;ration rapide</th> <th>Fortification</th> </tr> <tr> <td>Brun</td> <td>10</td> <td>1</td> <td>1</td> <td>0%</td> </tr> <tr> <td>Pourpre</td> <td>10</td> <td>5</td> <td>2</td> <td>0%</td> </tr> <tr> <td>Noir</td> <td>10</td> <td>10</td> <td>3</td> <td>0%</td> </tr> <tr> <td>Blanc</td> <td>20</td> <td>15</td> <td>4</td> <td>0%</td> </tr> <tr> <td>Gris</td> <td>20</td> <td>20</td> <td>5</td> <td>0%</td> </tr> <tr> <td>Vert</td> <td>20</td> <td>25</td> <td>6</td> <td>20%</td> </tr> <tr> <td>Rouge</td> <td>40</td> <td>30</td> <td>7</td> <td>40%</td> </tr> <tr> <td>Bleu</td> <td>40</td> <td>35</td> <td>8</td> <td>60%</td> </tr> <tr> <td>Orange</td> <td>40</td> <td>40</td> <td>9</td> <td>80%</td> </tr> <tr> <td>Prismatique</td> <td>100</td> <td>50</td> <td>10</td> <td>100%</td> </tr> </tbody> </table>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Force field, blue": {
+			"frName": "Champ de force, bleu",
+			"frDescription": "<p>Vous pouvez activer ou d&eacute;sactiver le champ de force de votre armure par une action simple. Une fois actif, l&rsquo;appareil g&eacute;n&egrave;re un champ de force invisible qui vous enveloppe ainsi que tous les objets que vous transportez ou dont vous &ecirc;tes &eacute;quip&eacute;s. Le champ bloque les solides et les liquides mais pas les gaz ni la lumi&egrave;re (y compris les rayons laser). Vous pouvez respirer normalement quand le champ est activ&eacute; mais vous ne pouvez pas manger ni boire.</p> <p>Tant qu&rsquo;un champ de force est actif, vous gagnez un nombre de points de vie temporaires qui d&eacute;pend de la puissance du champ. Tous les d&eacute;g&acirc;ts que vous subissez sont d&rsquo;abord retranch&eacute;s aux points de vie temporaires. Un champ de force se r&eacute;g&eacute;n&egrave;re rapidement ce qui signifie qu&rsquo;il r&eacute;cup&egrave;re un certain nombre de points de vie temporaires &agrave; chaque round &agrave; la fin de votre tour jusqu&rsquo;&agrave; son maximum. Si les points de vie temporaires du champ de force tombent &agrave; 0, il est inactif jusqu&rsquo;&agrave; la fin de votre prochain tour au moment o&ugrave; sa r&eacute;g&eacute;n&eacute;ration rapide lui redonne des points de vie. La capacit&eacute; en nombre de charges, le nombre de points de vie temporaires octroy&eacute;s et la rapidit&eacute; de r&eacute;g&eacute;n&eacute;ration d&eacute;pendent de la couleur du champ de force. Un champ de force consomme 1 charge par round.</p> <p>Les champs de force les plus puissants ont &eacute;galement la capacit&eacute; de fortification qui conf&egrave;re une probabilit&eacute; qu&rsquo;une attaque critique soit consid&eacute;r&eacute;e comme une attaque normale, infligeant des d&eacute;g&acirc;ts normaux sans b&eacute;n&eacute;ficier de son effet critique. Le jet de pourcentage est lanc&eacute; avant de d&eacute;terminer les d&eacute;g&acirc;ts du coup critique. Si un champ de force est inactif, sa capacit&eacute; de fortification ne fonctionne pas. On ne peut installer plus d&rsquo;un champ de force sur une armure.</p> <table> <tbody> <tr> <th>Couleur</th> <th>Capacit&eacute;</th> <th>PV Temp.</th> <th>R&eacute;g&eacute;n&eacute;ration rapide</th> <th>Fortification</th> </tr> <tr> <td>Brun</td> <td>10</td> <td>1</td> <td>1</td> <td>0%</td> </tr> <tr> <td>Pourpre</td> <td>10</td> <td>5</td> <td>2</td> <td>0%</td> </tr> <tr> <td>Noir</td> <td>10</td> <td>10</td> <td>3</td> <td>0%</td> </tr> <tr> <td>Blanc</td> <td>20</td> <td>15</td> <td>4</td> <td>0%</td> </tr> <tr> <td>Gris</td> <td>20</td> <td>20</td> <td>5</td> <td>0%</td> </tr> <tr> <td>Vert</td> <td>20</td> <td>25</td> <td>6</td> <td>20%</td> </tr> <tr> <td>Rouge</td> <td>40</td> <td>30</td> <td>7</td> <td>40%</td> </tr> <tr> <td>Bleu</td> <td>40</td> <td>35</td> <td>8</td> <td>60%</td> </tr> <tr> <td>Orange</td> <td>40</td> <td>40</td> <td>9</td> <td>80%</td> </tr> <tr> <td>Prismatique</td> <td>100</td> <td>50</td> <td>10</td> <td>100%</td> </tr> </tbody> </table>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Force field, gray": {
+			"frName": "Champ de force, gris",
+			"frDescription": "<p>Vous pouvez activer ou d&eacute;sactiver le champ de force de votre armure par une action simple. Une fois actif, l&rsquo;appareil g&eacute;n&egrave;re un champ de force invisible qui vous enveloppe ainsi que tous les objets que vous transportez ou dont vous &ecirc;tes &eacute;quip&eacute;s. Le champ bloque les solides et les liquides mais pas les gaz ni la lumi&egrave;re (y compris les rayons laser). Vous pouvez respirer normalement quand le champ est activ&eacute; mais vous ne pouvez pas manger ni boire.</p> <p>Tant qu&rsquo;un champ de force est actif, vous gagnez un nombre de points de vie temporaires qui d&eacute;pend de la puissance du champ. Tous les d&eacute;g&acirc;ts que vous subissez sont d&rsquo;abord retranch&eacute;s aux points de vie temporaires. Un champ de force se r&eacute;g&eacute;n&egrave;re rapidement ce qui signifie qu&rsquo;il r&eacute;cup&egrave;re un certain nombre de points de vie temporaires &agrave; chaque round &agrave; la fin de votre tour jusqu&rsquo;&agrave; son maximum. Si les points de vie temporaires du champ de force tombent &agrave; 0, il est inactif jusqu&rsquo;&agrave; la fin de votre prochain tour au moment o&ugrave; sa r&eacute;g&eacute;n&eacute;ration rapide lui redonne des points de vie. La capacit&eacute; en nombre de charges, le nombre de points de vie temporaires octroy&eacute;s et la rapidit&eacute; de r&eacute;g&eacute;n&eacute;ration d&eacute;pendent de la couleur du champ de force. Un champ de force consomme 1 charge par round.</p> <p>Les champs de force les plus puissants ont &eacute;galement la capacit&eacute; de fortification qui conf&egrave;re une probabilit&eacute; qu&rsquo;une attaque critique soit consid&eacute;r&eacute;e comme une attaque normale, infligeant des d&eacute;g&acirc;ts normaux sans b&eacute;n&eacute;ficier de son effet critique. Le jet de pourcentage est lanc&eacute; avant de d&eacute;terminer les d&eacute;g&acirc;ts du coup critique. Si un champ de force est inactif, sa capacit&eacute; de fortification ne fonctionne pas. On ne peut installer plus d&rsquo;un champ de force sur une armure.</p> <table> <tbody> <tr> <th>Couleur</th> <th>Capacit&eacute;</th> <th>PV Temp.</th> <th>R&eacute;g&eacute;n&eacute;ration rapide</th> <th>Fortification</th> </tr> <tr> <td>Brun</td> <td>10</td> <td>1</td> <td>1</td> <td>0%</td> </tr> <tr> <td>Pourpre</td> <td>10</td> <td>5</td> <td>2</td> <td>0%</td> </tr> <tr> <td>Noir</td> <td>10</td> <td>10</td> <td>3</td> <td>0%</td> </tr> <tr> <td>Blanc</td> <td>20</td> <td>15</td> <td>4</td> <td>0%</td> </tr> <tr> <td>Gris</td> <td>20</td> <td>20</td> <td>5</td> <td>0%</td> </tr> <tr> <td>Vert</td> <td>20</td> <td>25</td> <td>6</td> <td>20%</td> </tr> <tr> <td>Rouge</td> <td>40</td> <td>30</td> <td>7</td> <td>40%</td> </tr> <tr> <td>Bleu</td> <td>40</td> <td>35</td> <td>8</td> <td>60%</td> </tr> <tr> <td>Orange</td> <td>40</td> <td>40</td> <td>9</td> <td>80%</td> </tr> <tr> <td>Prismatique</td> <td>100</td> <td>50</td> <td>10</td> <td>100%</td> </tr> </tbody> </table>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Force field, green": {
+			"frName": "Champ de force, vert",
+			"frDescription": "<p>Vous pouvez activer ou d&eacute;sactiver le champ de force de votre armure par une action simple. Une fois actif, l&rsquo;appareil g&eacute;n&egrave;re un champ de force invisible qui vous enveloppe ainsi que tous les objets que vous transportez ou dont vous &ecirc;tes &eacute;quip&eacute;s. Le champ bloque les solides et les liquides mais pas les gaz ni la lumi&egrave;re (y compris les rayons laser). Vous pouvez respirer normalement quand le champ est activ&eacute; mais vous ne pouvez pas manger ni boire.</p> <p>Tant qu&rsquo;un champ de force est actif, vous gagnez un nombre de points de vie temporaires qui d&eacute;pend de la puissance du champ. Tous les d&eacute;g&acirc;ts que vous subissez sont d&rsquo;abord retranch&eacute;s aux points de vie temporaires. Un champ de force se r&eacute;g&eacute;n&egrave;re rapidement ce qui signifie qu&rsquo;il r&eacute;cup&egrave;re un certain nombre de points de vie temporaires &agrave; chaque round &agrave; la fin de votre tour jusqu&rsquo;&agrave; son maximum. Si les points de vie temporaires du champ de force tombent &agrave; 0, il est inactif jusqu&rsquo;&agrave; la fin de votre prochain tour au moment o&ugrave; sa r&eacute;g&eacute;n&eacute;ration rapide lui redonne des points de vie. La capacit&eacute; en nombre de charges, le nombre de points de vie temporaires octroy&eacute;s et la rapidit&eacute; de r&eacute;g&eacute;n&eacute;ration d&eacute;pendent de la couleur du champ de force. Un champ de force consomme 1 charge par round.</p> <p>Les champs de force les plus puissants ont &eacute;galement la capacit&eacute; de fortification qui conf&egrave;re une probabilit&eacute; qu&rsquo;une attaque critique soit consid&eacute;r&eacute;e comme une attaque normale, infligeant des d&eacute;g&acirc;ts normaux sans b&eacute;n&eacute;ficier de son effet critique. Le jet de pourcentage est lanc&eacute; avant de d&eacute;terminer les d&eacute;g&acirc;ts du coup critique. Si un champ de force est inactif, sa capacit&eacute; de fortification ne fonctionne pas. On ne peut installer plus d&rsquo;un champ de force sur une armure.</p> <table> <tbody> <tr> <th>Couleur</th> <th>Capacit&eacute;</th> <th>PV Temp.</th> <th>R&eacute;g&eacute;n&eacute;ration rapide</th> <th>Fortification</th> </tr> <tr> <td>Brun</td> <td>10</td> <td>1</td> <td>1</td> <td>0%</td> </tr> <tr> <td>Pourpre</td> <td>10</td> <td>5</td> <td>2</td> <td>0%</td> </tr> <tr> <td>Noir</td> <td>10</td> <td>10</td> <td>3</td> <td>0%</td> </tr> <tr> <td>Blanc</td> <td>20</td> <td>15</td> <td>4</td> <td>0%</td> </tr> <tr> <td>Gris</td> <td>20</td> <td>20</td> <td>5</td> <td>0%</td> </tr> <tr> <td>Vert</td> <td>20</td> <td>25</td> <td>6</td> <td>20%</td> </tr> <tr> <td>Rouge</td> <td>40</td> <td>30</td> <td>7</td> <td>40%</td> </tr> <tr> <td>Bleu</td> <td>40</td> <td>35</td> <td>8</td> <td>60%</td> </tr> <tr> <td>Orange</td> <td>40</td> <td>40</td> <td>9</td> <td>80%</td> </tr> <tr> <td>Prismatique</td> <td>100</td> <td>50</td> <td>10</td> <td>100%</td> </tr> </tbody> </table>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Force field, orange": {
+			"frName": "Champ de force, orange",
+			"frDescription": "<p>Vous pouvez activer ou d&eacute;sactiver le champ de force de votre armure par une action simple. Une fois actif, l&rsquo;appareil g&eacute;n&egrave;re un champ de force invisible qui vous enveloppe ainsi que tous les objets que vous transportez ou dont vous &ecirc;tes &eacute;quip&eacute;s. Le champ bloque les solides et les liquides mais pas les gaz ni la lumi&egrave;re (y compris les rayons laser). Vous pouvez respirer normalement quand le champ est activ&eacute; mais vous ne pouvez pas manger ni boire.</p> <p>Tant qu&rsquo;un champ de force est actif, vous gagnez un nombre de points de vie temporaires qui d&eacute;pend de la puissance du champ. Tous les d&eacute;g&acirc;ts que vous subissez sont d&rsquo;abord retranch&eacute;s aux points de vie temporaires. Un champ de force se r&eacute;g&eacute;n&egrave;re rapidement ce qui signifie qu&rsquo;il r&eacute;cup&egrave;re un certain nombre de points de vie temporaires &agrave; chaque round &agrave; la fin de votre tour jusqu&rsquo;&agrave; son maximum. Si les points de vie temporaires du champ de force tombent &agrave; 0, il est inactif jusqu&rsquo;&agrave; la fin de votre prochain tour au moment o&ugrave; sa r&eacute;g&eacute;n&eacute;ration rapide lui redonne des points de vie. La capacit&eacute; en nombre de charges, le nombre de points de vie temporaires octroy&eacute;s et la rapidit&eacute; de r&eacute;g&eacute;n&eacute;ration d&eacute;pendent de la couleur du champ de force. Un champ de force consomme 1 charge par round.</p> <p>Les champs de force les plus puissants ont &eacute;galement la capacit&eacute; de fortification qui conf&egrave;re une probabilit&eacute; qu&rsquo;une attaque critique soit consid&eacute;r&eacute;e comme une attaque normale, infligeant des d&eacute;g&acirc;ts normaux sans b&eacute;n&eacute;ficier de son effet critique. Le jet de pourcentage est lanc&eacute; avant de d&eacute;terminer les d&eacute;g&acirc;ts du coup critique. Si un champ de force est inactif, sa capacit&eacute; de fortification ne fonctionne pas. On ne peut installer plus d&rsquo;un champ de force sur une armure.</p> <table> <tbody> <tr> <th>Couleur</th> <th>Capacit&eacute;</th> <th>PV Temp.</th> <th>R&eacute;g&eacute;n&eacute;ration rapide</th> <th>Fortification</th> </tr> <tr> <td>Brun</td> <td>10</td> <td>1</td> <td>1</td> <td>0%</td> </tr> <tr> <td>Pourpre</td> <td>10</td> <td>5</td> <td>2</td> <td>0%</td> </tr> <tr> <td>Noir</td> <td>10</td> <td>10</td> <td>3</td> <td>0%</td> </tr> <tr> <td>Blanc</td> <td>20</td> <td>15</td> <td>4</td> <td>0%</td> </tr> <tr> <td>Gris</td> <td>20</td> <td>20</td> <td>5</td> <td>0%</td> </tr> <tr> <td>Vert</td> <td>20</td> <td>25</td> <td>6</td> <td>20%</td> </tr> <tr> <td>Rouge</td> <td>40</td> <td>30</td> <td>7</td> <td>40%</td> </tr> <tr> <td>Bleu</td> <td>40</td> <td>35</td> <td>8</td> <td>60%</td> </tr> <tr> <td>Orange</td> <td>40</td> <td>40</td> <td>9</td> <td>80%</td> </tr> <tr> <td>Prismatique</td> <td>100</td> <td>50</td> <td>10</td> <td>100%</td> </tr> </tbody> </table>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Force field, prismatic": {
+			"frName": "Champ de force, prismatique",
+			"frDescription": "<p>Vous pouvez activer ou d&eacute;sactiver le champ de force de votre armure par une action simple. Une fois actif, l&rsquo;appareil g&eacute;n&egrave;re un champ de force invisible qui vous enveloppe ainsi que tous les objets que vous transportez ou dont vous &ecirc;tes &eacute;quip&eacute;s. Le champ bloque les solides et les liquides mais pas les gaz ni la lumi&egrave;re (y compris les rayons laser). Vous pouvez respirer normalement quand le champ est activ&eacute; mais vous ne pouvez pas manger ni boire.</p> <p>Tant qu&rsquo;un champ de force est actif, vous gagnez un nombre de points de vie temporaires qui d&eacute;pend de la puissance du champ. Tous les d&eacute;g&acirc;ts que vous subissez sont d&rsquo;abord retranch&eacute;s aux points de vie temporaires. Un champ de force se r&eacute;g&eacute;n&egrave;re rapidement ce qui signifie qu&rsquo;il r&eacute;cup&egrave;re un certain nombre de points de vie temporaires &agrave; chaque round &agrave; la fin de votre tour jusqu&rsquo;&agrave; son maximum. Si les points de vie temporaires du champ de force tombent &agrave; 0, il est inactif jusqu&rsquo;&agrave; la fin de votre prochain tour au moment o&ugrave; sa r&eacute;g&eacute;n&eacute;ration rapide lui redonne des points de vie. La capacit&eacute; en nombre de charges, le nombre de points de vie temporaires octroy&eacute;s et la rapidit&eacute; de r&eacute;g&eacute;n&eacute;ration d&eacute;pendent de la couleur du champ de force. Un champ de force consomme 1 charge par round.</p> <p>Les champs de force les plus puissants ont &eacute;galement la capacit&eacute; de fortification qui conf&egrave;re une probabilit&eacute; qu&rsquo;une attaque critique soit consid&eacute;r&eacute;e comme une attaque normale, infligeant des d&eacute;g&acirc;ts normaux sans b&eacute;n&eacute;ficier de son effet critique. Le jet de pourcentage est lanc&eacute; avant de d&eacute;terminer les d&eacute;g&acirc;ts du coup critique. Si un champ de force est inactif, sa capacit&eacute; de fortification ne fonctionne pas. On ne peut installer plus d&rsquo;un champ de force sur une armure.</p> <table> <tbody> <tr> <th>Couleur</th> <th>Capacit&eacute;</th> <th>PV Temp.</th> <th>R&eacute;g&eacute;n&eacute;ration rapide</th> <th>Fortification</th> </tr> <tr> <td>Brun</td> <td>10</td> <td>1</td> <td>1</td> <td>0%</td> </tr> <tr> <td>Pourpre</td> <td>10</td> <td>5</td> <td>2</td> <td>0%</td> </tr> <tr> <td>Noir</td> <td>10</td> <td>10</td> <td>3</td> <td>0%</td> </tr> <tr> <td>Blanc</td> <td>20</td> <td>15</td> <td>4</td> <td>0%</td> </tr> <tr> <td>Gris</td> <td>20</td> <td>20</td> <td>5</td> <td>0%</td> </tr> <tr> <td>Vert</td> <td>20</td> <td>25</td> <td>6</td> <td>20%</td> </tr> <tr> <td>Rouge</td> <td>40</td> <td>30</td> <td>7</td> <td>40%</td> </tr> <tr> <td>Bleu</td> <td>40</td> <td>35</td> <td>8</td> <td>60%</td> </tr> <tr> <td>Orange</td> <td>40</td> <td>40</td> <td>9</td> <td>80%</td> </tr> <tr> <td>Prismatique</td> <td>100</td> <td>50</td> <td>10</td> <td>100%</td> </tr> </tbody> </table>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Force field, purple": {
+			"frName": "Champ de force, pourpre",
+			"frDescription": "<p>Vous pouvez activer ou d&eacute;sactiver le champ de force de votre armure par une action simple. Une fois actif, l&rsquo;appareil g&eacute;n&egrave;re un champ de force invisible qui vous enveloppe ainsi que tous les objets que vous transportez ou dont vous &ecirc;tes &eacute;quip&eacute;s. Le champ bloque les solides et les liquides mais pas les gaz ni la lumi&egrave;re (y compris les rayons laser). Vous pouvez respirer normalement quand le champ est activ&eacute; mais vous ne pouvez pas manger ni boire.</p> <p>Tant qu&rsquo;un champ de force est actif, vous gagnez un nombre de points de vie temporaires qui d&eacute;pend de la puissance du champ. Tous les d&eacute;g&acirc;ts que vous subissez sont d&rsquo;abord retranch&eacute;s aux points de vie temporaires. Un champ de force se r&eacute;g&eacute;n&egrave;re rapidement ce qui signifie qu&rsquo;il r&eacute;cup&egrave;re un certain nombre de points de vie temporaires &agrave; chaque round &agrave; la fin de votre tour jusqu&rsquo;&agrave; son maximum. Si les points de vie temporaires du champ de force tombent &agrave; 0, il est inactif jusqu&rsquo;&agrave; la fin de votre prochain tour au moment o&ugrave; sa r&eacute;g&eacute;n&eacute;ration rapide lui redonne des points de vie. La capacit&eacute; en nombre de charges, le nombre de points de vie temporaires octroy&eacute;s et la rapidit&eacute; de r&eacute;g&eacute;n&eacute;ration d&eacute;pendent de la couleur du champ de force. Un champ de force consomme 1 charge par round.</p> <p>Les champs de force les plus puissants ont &eacute;galement la capacit&eacute; de fortification qui conf&egrave;re une probabilit&eacute; qu&rsquo;une attaque critique soit consid&eacute;r&eacute;e comme une attaque normale, infligeant des d&eacute;g&acirc;ts normaux sans b&eacute;n&eacute;ficier de son effet critique. Le jet de pourcentage est lanc&eacute; avant de d&eacute;terminer les d&eacute;g&acirc;ts du coup critique. Si un champ de force est inactif, sa capacit&eacute; de fortification ne fonctionne pas. On ne peut installer plus d&rsquo;un champ de force sur une armure.</p> <table> <tbody> <tr> <th>Couleur</th> <th>Capacit&eacute;</th> <th>PV Temp.</th> <th>R&eacute;g&eacute;n&eacute;ration rapide</th> <th>Fortification</th> </tr> <tr> <td>Brun</td> <td>10</td> <td>1</td> <td>1</td> <td>0%</td> </tr> <tr> <td>Pourpre</td> <td>10</td> <td>5</td> <td>2</td> <td>0%</td> </tr> <tr> <td>Noir</td> <td>10</td> <td>10</td> <td>3</td> <td>0%</td> </tr> <tr> <td>Blanc</td> <td>20</td> <td>15</td> <td>4</td> <td>0%</td> </tr> <tr> <td>Gris</td> <td>20</td> <td>20</td> <td>5</td> <td>0%</td> </tr> <tr> <td>Vert</td> <td>20</td> <td>25</td> <td>6</td> <td>20%</td> </tr> <tr> <td>Rouge</td> <td>40</td> <td>30</td> <td>7</td> <td>40%</td> </tr> <tr> <td>Bleu</td> <td>40</td> <td>35</td> <td>8</td> <td>60%</td> </tr> <tr> <td>Orange</td> <td>40</td> <td>40</td> <td>9</td> <td>80%</td> </tr> <tr> <td>Prismatique</td> <td>100</td> <td>50</td> <td>10</td> <td>100%</td> </tr> </tbody> </table>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Force field, red": {
+			"frName": "Champ de force, rouge",
+			"frDescription": "<p>Vous pouvez activer ou d&eacute;sactiver le champ de force de votre armure par une action simple. Une fois actif, l&rsquo;appareil g&eacute;n&egrave;re un champ de force invisible qui vous enveloppe ainsi que tous les objets que vous transportez ou dont vous &ecirc;tes &eacute;quip&eacute;s. Le champ bloque les solides et les liquides mais pas les gaz ni la lumi&egrave;re (y compris les rayons laser). Vous pouvez respirer normalement quand le champ est activ&eacute; mais vous ne pouvez pas manger ni boire.</p> <p>Tant qu&rsquo;un champ de force est actif, vous gagnez un nombre de points de vie temporaires qui d&eacute;pend de la puissance du champ. Tous les d&eacute;g&acirc;ts que vous subissez sont d&rsquo;abord retranch&eacute;s aux points de vie temporaires. Un champ de force se r&eacute;g&eacute;n&egrave;re rapidement ce qui signifie qu&rsquo;il r&eacute;cup&egrave;re un certain nombre de points de vie temporaires &agrave; chaque round &agrave; la fin de votre tour jusqu&rsquo;&agrave; son maximum. Si les points de vie temporaires du champ de force tombent &agrave; 0, il est inactif jusqu&rsquo;&agrave; la fin de votre prochain tour au moment o&ugrave; sa r&eacute;g&eacute;n&eacute;ration rapide lui redonne des points de vie. La capacit&eacute; en nombre de charges, le nombre de points de vie temporaires octroy&eacute;s et la rapidit&eacute; de r&eacute;g&eacute;n&eacute;ration d&eacute;pendent de la couleur du champ de force. Un champ de force consomme 1 charge par round.</p> <p>Les champs de force les plus puissants ont &eacute;galement la capacit&eacute; de fortification qui conf&egrave;re une probabilit&eacute; qu&rsquo;une attaque critique soit consid&eacute;r&eacute;e comme une attaque normale, infligeant des d&eacute;g&acirc;ts normaux sans b&eacute;n&eacute;ficier de son effet critique. Le jet de pourcentage est lanc&eacute; avant de d&eacute;terminer les d&eacute;g&acirc;ts du coup critique. Si un champ de force est inactif, sa capacit&eacute; de fortification ne fonctionne pas. On ne peut installer plus d&rsquo;un champ de force sur une armure.</p> <table> <tbody> <tr> <th>Couleur</th> <th>Capacit&eacute;</th> <th>PV Temp.</th> <th>R&eacute;g&eacute;n&eacute;ration rapide</th> <th>Fortification</th> </tr> <tr> <td>Brun</td> <td>10</td> <td>1</td> <td>1</td> <td>0%</td> </tr> <tr> <td>Pourpre</td> <td>10</td> <td>5</td> <td>2</td> <td>0%</td> </tr> <tr> <td>Noir</td> <td>10</td> <td>10</td> <td>3</td> <td>0%</td> </tr> <tr> <td>Blanc</td> <td>20</td> <td>15</td> <td>4</td> <td>0%</td> </tr> <tr> <td>Gris</td> <td>20</td> <td>20</td> <td>5</td> <td>0%</td> </tr> <tr> <td>Vert</td> <td>20</td> <td>25</td> <td>6</td> <td>20%</td> </tr> <tr> <td>Rouge</td> <td>40</td> <td>30</td> <td>7</td> <td>40%</td> </tr> <tr> <td>Bleu</td> <td>40</td> <td>35</td> <td>8</td> <td>60%</td> </tr> <tr> <td>Orange</td> <td>40</td> <td>40</td> <td>9</td> <td>80%</td> </tr> <tr> <td>Prismatique</td> <td>100</td> <td>50</td> <td>10</td> <td>100%</td> </tr> </tbody> </table>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Force field, white": {
+			"frName": "Champ de force, blanc",
+			"frDescription": "<p>Vous pouvez activer ou d&eacute;sactiver le champ de force de votre armure par une action simple. Une fois actif, l&rsquo;appareil g&eacute;n&egrave;re un champ de force invisible qui vous enveloppe ainsi que tous les objets que vous transportez ou dont vous &ecirc;tes &eacute;quip&eacute;s. Le champ bloque les solides et les liquides mais pas les gaz ni la lumi&egrave;re (y compris les rayons laser). Vous pouvez respirer normalement quand le champ est activ&eacute; mais vous ne pouvez pas manger ni boire.</p> <p>Tant qu&rsquo;un champ de force est actif, vous gagnez un nombre de points de vie temporaires qui d&eacute;pend de la puissance du champ. Tous les d&eacute;g&acirc;ts que vous subissez sont d&rsquo;abord retranch&eacute;s aux points de vie temporaires. Un champ de force se r&eacute;g&eacute;n&egrave;re rapidement ce qui signifie qu&rsquo;il r&eacute;cup&egrave;re un certain nombre de points de vie temporaires &agrave; chaque round &agrave; la fin de votre tour jusqu&rsquo;&agrave; son maximum. Si les points de vie temporaires du champ de force tombent &agrave; 0, il est inactif jusqu&rsquo;&agrave; la fin de votre prochain tour au moment o&ugrave; sa r&eacute;g&eacute;n&eacute;ration rapide lui redonne des points de vie. La capacit&eacute; en nombre de charges, le nombre de points de vie temporaires octroy&eacute;s et la rapidit&eacute; de r&eacute;g&eacute;n&eacute;ration d&eacute;pendent de la couleur du champ de force. Un champ de force consomme 1 charge par round.</p> <p>Les champs de force les plus puissants ont &eacute;galement la capacit&eacute; de fortification qui conf&egrave;re une probabilit&eacute; qu&rsquo;une attaque critique soit consid&eacute;r&eacute;e comme une attaque normale, infligeant des d&eacute;g&acirc;ts normaux sans b&eacute;n&eacute;ficier de son effet critique. Le jet de pourcentage est lanc&eacute; avant de d&eacute;terminer les d&eacute;g&acirc;ts du coup critique. Si un champ de force est inactif, sa capacit&eacute; de fortification ne fonctionne pas. On ne peut installer plus d&rsquo;un champ de force sur une armure.</p> <table> <tbody> <tr> <th>Couleur</th> <th>Capacit&eacute;</th> <th>PV Temp.</th> <th>R&eacute;g&eacute;n&eacute;ration rapide</th> <th>Fortification</th> </tr> <tr> <td>Brun</td> <td>10</td> <td>1</td> <td>1</td> <td>0%</td> </tr> <tr> <td>Pourpre</td> <td>10</td> <td>5</td> <td>2</td> <td>0%</td> </tr> <tr> <td>Noir</td> <td>10</td> <td>10</td> <td>3</td> <td>0%</td> </tr> <tr> <td>Blanc</td> <td>20</td> <td>15</td> <td>4</td> <td>0%</td> </tr> <tr> <td>Gris</td> <td>20</td> <td>20</td> <td>5</td> <td>0%</td> </tr> <tr> <td>Vert</td> <td>20</td> <td>25</td> <td>6</td> <td>20%</td> </tr> <tr> <td>Rouge</td> <td>40</td> <td>30</td> <td>7</td> <td>40%</td> </tr> <tr> <td>Bleu</td> <td>40</td> <td>35</td> <td>8</td> <td>60%</td> </tr> <tr> <td>Orange</td> <td>40</td> <td>40</td> <td>9</td> <td>80%</td> </tr> <tr> <td>Prismatique</td> <td>100</td> <td>50</td> <td>10</td> <td>100%</td> </tr> </tbody> </table>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Forcepack": {
+			"frName": "Pack de force (hybride)",
+			"frDescription": "<p>Un pack de force vous octroie une vitesse de vol de 18 m&egrave;tres (man&oelig;uvrabilit&eacute; moyenne). Vous pouvez l&rsquo;utiliser pour voler en &laquo; vitesse de croisi&egrave;re &raquo; au co&ucirc;t de 1 charge par minute mais vous &ecirc;tes consid&eacute;r&eacute; comme pris au d&eacute;pourvu et impr&eacute;cis pendant ce temps. Passer du mode vol normal en mode vitesse de croisi&egrave;re, ou inversement, est une action simple. Un pack de force ne peut vous soulever si vous &ecirc;tes encombr&eacute;.</p> <p>Cette am&eacute;lioration ne peut &ecirc;tre install&eacute;e que sur des armures l&eacute;g&egrave;res ou lourdes.</p> <p><strong>Capacit&eacute;&nbsp;</strong>100&nbsp;<strong>Consommation&nbsp;</strong>2/round</p>",
+			"frSource": "RDB p.207",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Frag grenade I": {
+			"frName": "Grenade à fragmentation I",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A fragmentary, or frag, grenade explodes in a cloud of shrapnel.</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Frag grenade II": {
+			"frName": "Grenade à fragmentation II",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A fragmentary, or frag, grenade explodes in a cloud of shrapnel.</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Frag grenade III": {
+			"frName": "Grenade à fragmentation III",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A fragmentary, or frag, grenade explodes in a cloud of shrapnel.</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Frag grenade IV": {
+			"frName": "Grenade à fragmentation IV",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A fragmentary, or frag, grenade explodes in a cloud of shrapnel.</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Frag grenade V": {
+			"frName": "Grenade à fragmentation V",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A fragmentary, or frag, grenade explodes in a cloud of shrapnel.</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Frag grenade VI": {
+			"frName": "Grenade à fragmentation VI",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A fragmentary, or frag, grenade explodes in a cloud of shrapnel.</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Frag grenade VII": {
+			"frName": "Grenade à fragmentation VII",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A fragmentary, or frag, grenade explodes in a cloud of shrapnel.</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Frag grenade VIII": {
+			"frName": "Grenade à fragmentation VIII",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A fragmentary, or frag, grenade explodes in a cloud of shrapnel.</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Frost": {
+			"frName": "Glacée",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">The <em>frost </em>fusion imbues a weapon with the icy cold of a dead world far from its system’s sun. Half the weapon’s damage type is replaced with cold damage. You can activate or deactivate the <em>frost </em>fusion as a swift action. If the weapon already deals two types of damage, replace one of them with cold (you decide which damage type to replace each time you activate the <em>frost</em> fusion). You can add this fusion only to a weapon that does not already deal cold damage. This fusion never causes a weapon that normally targets KAC to target EAC.&nbsp;</span></p>",
+			"frSource": "RDB p.194",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Gear Clamp": {
+			"frName": "Mousquetons et accroches",
+			"frDescription": "<p>Ces accessoires sont con&ccedil;us pour fixer une pi&egrave;ce d&rsquo;&eacute;quipement de fa&ccedil;on &agrave; y avoir facilement acc&egrave;s. On les porte souvent &agrave; la ceinture ou accroch&eacute;s sur une armure mais on peut aussi les placer dans tout autre endroit pratique quand vous escaladez un arbre ou que vous travaillez dans un environnement &agrave; gravit&eacute; 0. Installer un mousqueton ou une accroche n&eacute;cessite une action complexe, mais tout objet que l&rsquo;ont peut facilement tenir en main peut &ecirc;tre d&eacute;croch&eacute; ou&nbsp;accroch&eacute; &agrave; cet accessoire aussi facilement que l&rsquo;on d&eacute;gaine ou rengaine une arme. Il existe des milliers de mod&egrave;les diff&eacute;rents qui ont chacun leur propre syst&egrave;me d&rsquo;accroche et de fixation. Si vous utilisez un mod&egrave;le que vous ne connaissez pas (en ayant lu le manuel, en ayant assist&eacute; &agrave; une d&eacute;monstration ou en l&rsquo;ayant test&eacute; &agrave; plusieurs reprises) accrocher ou retirer un &eacute;quipement demande une action complexe. Pour arracher un objet fix&eacute; &agrave; un de ces accessoires, il faut r&eacute;ussir un jet de Force DD 25.</p>",
+			"frSource": "RDB p.230",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Gem": {
+			"frName": "Pierres précieuses",
+			"frDescription": "<p>Les pierres pr&eacute;cieuses ont de la valeur &agrave; cause de leur raret&eacute;, de leur beaut&eacute; et, dans certains cas, de leur utilit&eacute; pour certaines formes de technologies et de rituels magiques. La valeur d&rsquo;une pierre pr&eacute;cieuse est d&eacute;termin&eacute;e par de nombreux facteurs dont ses dimensions, sa raret&eacute;, sa puret&eacute;, sa taille et son polissage mais aussi en fonction de certaines influences culturelles. Les pierres pr&eacute;cieuses de basse qualit&eacute; valent g&eacute;n&eacute;ralement entre 4 et 45 cr&eacute;dits. Les pierres semi-pr&eacute;cieuses valent g&eacute;n&eacute;ralement entre 50 et 95 cr&eacute;dits. Les pierres pr&eacute;cieuses valent entre 150 et 450 cr&eacute;dits et celles qui sont consid&eacute;r&eacute;es comme des joyaux valent entre 1 000 et 4 500 cr&eacute;dits. Celles qui sont consid&eacute;r&eacute;es comme des joyaux d&rsquo;exception ont une valeur sup&eacute;rieure &agrave; 5 000 cr&eacute;dits et les plus rares et les plus pr&eacute;cieuses peuvent valoir des centaines de milliers de cr&eacute;dits et m&ecirc;me des millions.</p><p>&nbsp;</p><p><strong>Les prix varient</strong></p>",
+			"frSource": "RDB p.233",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Glamered": {
+			"frName": "Polymorphe",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">As a standard action, a weapon with the <em>glamered </em>fusion can be commanded to change its appearance to assume the form of another object of similar size. The weapon retains all its properties (including bulk) when disguised but does not radiate magic. Only <em>true seeing</em> or similar magic reveals the true nature of a <em>glamered </em>weapon while it is in disguise. After a <em>glamered</em> weapon is used to make an attack, this fusion is suppressed for 1 minute.&nbsp;</span></p>",
+			"frSource": "RDB p.194",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Grain": {
+			"frName": "Céréales",
+			"frDescription": "<p>Les c&eacute;r&eacute;ales sont des aliments extr&ecirc;mement r&eacute;pandus et peuvent &ecirc;tre consid&eacute;r&eacute;s comme repr&eacute;sentatifs d&rsquo;une grande vari&eacute;t&eacute; de produits alimentaires de base. Naturellement, leur prix varie grandement mais celui indiqu&eacute; dans la table est le prix de base pour le volume de c&eacute;r&eacute;ales indiqu&eacute; et pr&eacute;conditionn&eacute;.</p>",
+			"frSource": "RDB p.232",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Grappler": {
+			"frName": "Agrippeur",
+			"frDescription": "<p>Un agrippeur est un appareil de haute technologie qui permet de s&rsquo;agripper et qui peut &ecirc;tre attach&eacute; &agrave; un c&acirc;ble par une action de mouvement. Le c&acirc;ble peut aussi &ecirc;tre enfil&eacute; dans l&rsquo;agrippeur, ce qui prend 1 minute mais permet d&rsquo;ajouter la solidit&eacute; et les PV du c&acirc;ble &agrave; la solidit&eacute; et aux PV de l&rsquo;agrippeur (et vice-versa). L&rsquo;agrippeur est dot&eacute; d&rsquo;un dispositif de serrage qui peut glisser le long du c&acirc;ble ce qui permet d&rsquo;y grimper aussi facilement que s&rsquo;il s&rsquo;agissait d&rsquo;une corde &agrave; n&oelig;uds (voir Athl&eacute;tisme page 136).</p><p></p><p>Vous pouvez attacher l&rsquo;agrippeur dot&eacute; d&rsquo;un c&acirc;ble &agrave; un objet immobile d&rsquo;au moins 1,50 m de large avec une attaque &agrave; distance contre une CA de 5. Si l&rsquo;agrippeur est tir&eacute; contre un objet en mouvement ou une cible plus petite, vous devez toucher la CAC de l&rsquo;objet + 8 pour que l&rsquo;agrippeur s&rsquo;y fixe. Une fois qu&rsquo;il est fix&eacute;, l&rsquo;agrippeur reste attach&eacute; jusqu&rsquo;&agrave; ce que vous utilisiez une action de mouvement pour le d&eacute;tacher, qu&rsquo;il soit retir&eacute; par un test d&rsquo;Athl&eacute;tisme &eacute;gal au jet d&rsquo;attaque que vous avez effectu&eacute; pour le fixer ou jusqu&rsquo;&agrave; ce qu&rsquo;il soit d&eacute;truit. Un filin c&acirc;bl&eacute; attach&eacute; ou enfil&eacute; dans un agrippeur peut &ecirc;tre d&eacute;truit sans que l&rsquo;agrippeur ne soit endommag&eacute;. Dans ce cas, l&rsquo;appareil perd la solidit&eacute; et les points de vie suppl&eacute;mentaires dont il b&eacute;n&eacute;ficiait gr&acirc;ce au c&acirc;ble.</p><p></p><p>Vous pouvez aussi cibler une cr&eacute;ature. Cette action est r&eacute;solue comme une man&oelig;uvre offensive de lutte mais une cr&eacute;ature frapp&eacute;e par un agrippeur peut toujours utiliser ses mains et ses d&eacute;placements ne sont limit&eacute;s que par la taille du c&acirc;ble de l&rsquo;agrippeur. En plus des r&egrave;gles normales pour &eacute;chapper &agrave; une attaque de lutte, la cible peut se d&eacute;gager en r&eacute;ussissant un test d&rsquo;Athl&eacute;tisme (DD &eacute;gal &agrave; votre jet d&rsquo;attaque pour saisir la cible). Ou, elle peut aussi tenter une man&oelig;uvre destruction (voir page 246) contre l&rsquo;appareil. M&ecirc;me si la man&oelig;uvre ne d&eacute;truit pas le c&acirc;ble attach&eacute;, la cr&eacute;ature &eacute;chappe &agrave; la prise.</p><p></p><p>Un agrippeur peut &ecirc;tre lanc&eacute; comme une grenade ou &ecirc;tre fix&eacute; &agrave; l&rsquo;extr&eacute;mit&eacute; du canon d&rsquo;une arme qui prend pour cible la CAC d&rsquo;une cible, auquel cas le facteur de port&eacute;e de cette arme est r&eacute;duit de moiti&eacute; et vous utilisez le don Maniement des armes et les bonus &agrave; l&rsquo;attaque correspondants &agrave; cette arme. Un agrippeur peut &ecirc;tre r&eacute;utilis&eacute;.</p>",
+			"frSource": "RDB p.218",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Haste circuit (magic)": {
+			"frName": "Circuit d'accélération (magique)",
+			"frDescription": "<p>Vous pouvez activer un circuit d&rsquo;acc&eacute;l&eacute;ration par une action rapide pour b&eacute;n&eacute;ficier des avantages du sort rapidit&eacute; jusqu&rsquo;&agrave; ce que vous utilisiez une autre action rapide pour le d&eacute;sactiver ou jusqu&rsquo;&agrave; ce que vous ayez &eacute;puis&eacute; toutes ses charges. Les charges de cette am&eacute;lioration se r&eacute;g&eacute;n&egrave;rent int&eacute;gralement chaque jour.</p> <p>Cette am&eacute;lioration ne peut &ecirc;tre install&eacute;e que sur des armures l&eacute;g&egrave;res ou lourdes</p> <p><strong>Capacit&eacute;</strong> 10 <strong>Utilisation</strong> 1/round</p>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Holoskin": {
+			"frName": "Peau holographique",
+			"frDescription": "<p>Ce projecteur holographique est g&eacute;n&eacute;ralement fix&eacute; &agrave; la ceinture ou au bras. Il peut &ecirc;tre programm&eacute; avec la comp&eacute;tence D&eacute;guisement&nbsp;pour projeter une apparence diff&eacute;rente. Quand vous utilisez une peau holographique, vous pouvez masquer votre race, votre type de cr&eacute;ature ou vos principaux traits sans augmenter le DD de votre test de D&eacute;guisement sauf contre les tests de Perception au cours desquels il y a un examen physique</p>",
+			"frSource": "RDB p.221",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Holy": {
+			"frName": "Sanctifiée",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">A weapon with the <em>holy </em>fusion becomes blessed with divine energy from a good deity. Any attacks with the fused weapon are good-aligned. Damage from the weapon bypasses DR/good and ignores the energy resistance of evil dragons, evil outsiders, and evil undead. The <em>holy </em>fusion cannot be added to weapons that have the <em>unholy </em>fusion.&nbsp;</span></p>",
+			"frSource": "RDB p.195",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Hybridized": {
+			"frName": "Hybride",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">A weapon with the <em>hybridized </em>fusion replaces much of its technological functions with magic counterparts. It gains the analog weapon special property (see page 180), and the core function of the weapon is considered to be a hybrid of magic and technology (rather than only the fusion counting as a hybrid item). A hybridized weapon still consumes ammunition and battery charges normally.&nbsp;</span></p>",
+			"frSource": "RDB p.194",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Hygiene Kit": {
+			"frName": "Trousse hygiénique",
+			"frDescription": "<p>Ce kit contient tous les accessoires et produits pour faire sa toilette et avoir une bonne hygi&egrave;ne. Les trousses con&ccedil;ues pour des races pr&eacute;cises incluent des produits (comme des soins pour &eacute;cailles pour les vesks ou de quoi nettoyer les antennes des lashuntas ou des shirrens) qui sont moins utiles pour les autres cr&eacute;atures.</p>",
+			"frSource": "RDB p.231",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Illuminating": {
+			"frName": "Illuminée",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">The <em>illuminating </em>fusion causes a weapon to gain the bright weapon special property (see page 181). You can deactivate this fusion as a move action, in which case the weapon acts as if it does not have the bright property until it is reactivated (which also requires a move action).&nbsp;</span></p>",
+			"frSource": "RDB p.194",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Incendiary grenade I": {
+			"frName": "Grenade incendiaire I",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">Incendiary grenades detonate in a spray of superheated plasma.&nbsp;</span></p>",
+			"frSource": "RDB p.187",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Incendiary grenade II": {
+			"frName": "Grenade incendiaire II",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">Incendiary grenades detonate in a spray of superheated plasma.&nbsp;</span></p>",
+			"frSource": "RDB p.187",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Incendiary grenade III": {
+			"frName": "Grenade incendiaire III",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">Incendiary grenades detonate in a spray of superheated plasma.&nbsp;</span></p>",
+			"frSource": "RDB p.187",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Incendiary grenade IV": {
+			"frName": "Grenade incendiaire IV",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">Incendiary grenades detonate in a spray of superheated plasma.&nbsp;</span></p>",
+			"frSource": "RDB p.187",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Incendiary grenade V": {
+			"frName": "Grenade incendiaire V",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">Incendiary grenades detonate in a spray of superheated plasma.&nbsp;</span></p>",
+			"frSource": "RDB p.187",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Incendiary grenade VI": {
+			"frName": "Grenade incendiaire VI",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">Incendiary grenades detonate in a spray of superheated plasma.&nbsp;</span></p>",
+			"frSource": "RDB p.187",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Infrared sensors": {
+			"frName": "Capteurs infrarouges",
+			"frDescription": "<p>Vous gagnez vision dans le noir sur une distance de 18 m&egrave;tres.</p>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Jetpack": {
+			"frName": "Jetpack",
+			"frDescription": "<p>Vous gagnez une vitesse en vol de 9 m&egrave;tres (man&oelig;uvrabilit&eacute; moyenne). Vous pouvez l&rsquo;utiliser pour voler en &laquo; vitesse de croisi&egrave;re &raquo; au co&ucirc;t de 1 charge par minute mais vous &ecirc;tes consid&eacute;r&eacute; comme pris au d&eacute;pourvu et impr&eacute;cis pendant ce temps. Passer du mode de vol normal en mode vitesse de croisi&egrave;re, ou inversement, est une action simple. Un jetpack ne peut vous soulever si vous &ecirc;tes encombr&eacute;.</p> <p>Cette am&eacute;lioration ne peut &ecirc;tre install&eacute;e que sur des armures l&eacute;g&egrave;res ou lourdes.</p> <p><strong>Capacit&eacute;&nbsp;</strong>40&nbsp;<strong>Consommation&nbsp;</strong>2/round</p>",
+			"frSource": "RDB p.207",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Jump jets": {
+			"frName": "Réacteurs de saut",
+			"frDescription": "<p>Vous pouvez activer vos r&eacute;acteurs de saut en m&ecirc;me temps que vous effectuez une action de mouvement afin de voler pendant ce d&eacute;placement. Vous pouvez voler jusqu&rsquo;&agrave; 9 m&egrave;tres (man&oelig;uvrabilit&eacute; moyenne) &agrave; une hauteur maximale de 3 m&egrave;tres ou vous pouvez vous &eacute;lever dans les airs sur une hauteur de 6 m&egrave;tres. Vous devez atterrir &agrave; la fin de votre action de mouvement. Les r&eacute;acteurs de saut ne peuvent vous soulever si vous &ecirc;tes encombr&eacute;.</p> <p>Cette am&eacute;lioration ne peut &ecirc;tre install&eacute;e que sur des armures l&eacute;g&egrave;res ou lourdes.</p> <p><strong>Capacit&eacute;&nbsp;</strong>20&nbsp;<strong>Consommation&nbsp;</strong>2/action</p>",
+			"frSource": "RDB p.207",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Lashunta tempweave, advanced": {
+			"frName": "Tenue tempérée lashunta, évoluée",
+			"frDescription": "<p>Les lashuntas ont mis au point cette armure l&eacute;g&egrave;re temp&eacute;r&eacute;e entissant des fils de r&eacute;gulation de temp&eacute;rature&nbsp; dans un v&ecirc;tement renforc&eacute;. Il en r&eacute;sulte une tenue de protection souple qui maintient son utilisateur &agrave; une temp&eacute;rature confortable. La plupart de ces armures sont constitu&eacute;es d&rsquo;une tunique ajust&eacute;e et d&rsquo;un pantalon, ce qui en fait une tenue tr&egrave;s populaire aupr&egrave;s des explorateurs s&rsquo;aventurant dans des r&eacute;gions chaudes ou humides.</p>",
+			"frSource": "RDB p.203",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Lashunta tempweave, basic": {
+			"frName": "Tenue tempérée lashunta, basique",
+			"frDescription": "<p>Les lashuntas ont mis au point cette armure l&eacute;g&egrave;re temp&eacute;r&eacute;e entissant des fils de r&eacute;gulation de temp&eacute;rature&nbsp; dans un v&ecirc;tement renforc&eacute;. Il en r&eacute;sulte une tenue de protection souple qui maintient son utilisateur &agrave; une temp&eacute;rature confortable. La plupart de ces armures sont constitu&eacute;es d&rsquo;une tunique ajust&eacute;e et d&rsquo;un pantalon, ce qui en fait une tenue tr&egrave;s populaire aupr&egrave;s des explorateurs s&rsquo;aventurant dans des r&eacute;gions chaudes ou humides.</p>",
+			"frSource": "RDB p.203",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Load lifter": {
+			"frName": "Renfort de chargement",
+			"frDescription": "<p>Ces muscles artificiels augmentent de 3 points le volume que vous pouvez transporter avec cette armure.</p>",
+			"frSource": "RDB p.207",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Lock, Average": {
+			"frName": "Verrous, moyen",
+			"frDescription": "<p>Un verrou est un dispositif r&eacute;utilisable extr&ecirc;mement perfectionn&eacute;, capable de s&eacute;curiser n&rsquo;importe quelle cl&ocirc;ture ou fermeture en l&rsquo;appliquant sur sa surface sur laquelle il reste soud&eacute;. Un verrou se d&eacute;verrouille g&eacute;n&eacute;ralement gr&acirc;ce &agrave; un code, un passe des&eacute;curit&eacute; ou une commande vocale. R&eacute;ussir des tests d&rsquo;Ing&eacute;nierie peut aussi d&eacute;sactiver un verrou. Il y a quatre niveaux de qualit&eacute; pour les verrous (simple, moyen, haute-qualit&eacute; et sup&eacute;rieur) qui d&eacute;terminent le DD des tests d&rsquo;Ing&eacute;nierie pour les d&eacute;sactiver sans la bonne clef ou le bon code. Il faut utiliser ses deux mains pour poser ou retirer un verrou avec un passe de s&eacute;curit&eacute;. Pour plus d&rsquo;informations sur les verrous, y compris pour le DD des tests d&rsquo;Ing&eacute;nierie n&eacute;cessaires pour les ouvrir, reportez-vous &agrave; la comp&eacute;tence Ing&eacute;nierie page 142.</p>",
+			"frSource": "RDB p.221",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Lock, Good": {
+			"frName": "Verrous, haute-qualité",
+			"frDescription": "<p>Un verrou est un dispositif r&eacute;utilisable extr&ecirc;mement perfectionn&eacute;, capable de s&eacute;curiser n&rsquo;importe quelle cl&ocirc;ture ou fermeture en l&rsquo;appliquant sur sa surface sur laquelle il reste soud&eacute;. Un verrou se d&eacute;verrouille g&eacute;n&eacute;ralement gr&acirc;ce &agrave; un code, un passe des&eacute;curit&eacute; ou une commande vocale. R&eacute;ussir des tests d&rsquo;Ing&eacute;nierie peut aussi d&eacute;sactiver un verrou. Il y a quatre niveaux de qualit&eacute; pour les verrous (simple, moyen, haute-qualit&eacute; et sup&eacute;rieur) qui d&eacute;terminent le DD des tests d&rsquo;Ing&eacute;nierie pour les d&eacute;sactiver sans la bonne clef ou le bon code. Il faut utiliser ses deux mains pour poser ou retirer un verrou avec un passe de s&eacute;curit&eacute;. Pour plus d&rsquo;informations sur les verrous, y compris pour le DD des tests d&rsquo;Ing&eacute;nierie n&eacute;cessaires pour les ouvrir, reportez-vous &agrave; la comp&eacute;tence Ing&eacute;nierie page 142.</p>",
+			"frSource": "RDB p.221",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Lock, Simple": {
+			"frName": "Verrous, simple",
+			"frDescription": "<p>Un verrou est un dispositif r&eacute;utilisable extr&ecirc;mement perfectionn&eacute;, capable de s&eacute;curiser n&rsquo;importe quelle cl&ocirc;ture ou fermeture en l&rsquo;appliquant sur sa surface sur laquelle il reste soud&eacute;. Un verrou se d&eacute;verrouille g&eacute;n&eacute;ralement gr&acirc;ce &agrave; un code, un passe des&eacute;curit&eacute; ou une commande vocale. R&eacute;ussir des tests d&rsquo;Ing&eacute;nierie peut aussi d&eacute;sactiver un verrou. Il y a quatre niveaux de qualit&eacute; pour les verrous (simple, moyen, haute-qualit&eacute; et sup&eacute;rieur) qui d&eacute;terminent le DD des tests d&rsquo;Ing&eacute;nierie pour les d&eacute;sactiver sans la bonne clef ou le bon code. Il faut utiliser ses deux mains pour poser ou retirer un verrou avec un passe de s&eacute;curit&eacute;. Pour plus d&rsquo;informations sur les verrous, y compris pour le DD des tests d&rsquo;Ing&eacute;nierie n&eacute;cessaires pour les ouvrir, reportez-vous &agrave; la comp&eacute;tence Ing&eacute;nierie page 142.</p>",
+			"frSource": "RDB p.221",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Lock, Superior": {
+			"frName": "Verrous, supérieur",
+			"frDescription": "<p>Un verrou est un dispositif r&eacute;utilisable extr&ecirc;mement perfectionn&eacute;, capable de s&eacute;curiser n&rsquo;importe quelle cl&ocirc;ture ou fermeture en l&rsquo;appliquant sur sa surface sur laquelle il reste soud&eacute;. Un verrou se d&eacute;verrouille g&eacute;n&eacute;ralement gr&acirc;ce &agrave; un code, un passe des&eacute;curit&eacute; ou une commande vocale. R&eacute;ussir des tests d&rsquo;Ing&eacute;nierie peut aussi d&eacute;sactiver un verrou. Il y a quatre niveaux de qualit&eacute; pour les verrous (simple, moyen, haute-qualit&eacute; et sup&eacute;rieur) qui d&eacute;terminent le DD des tests d&rsquo;Ing&eacute;nierie pour les d&eacute;sactiver sans la bonne clef ou le bon code. Il faut utiliser ses deux mains pour poser ou retirer un verrou avec un passe de s&eacute;curit&eacute;. Pour plus d&rsquo;informations sur les verrous, y compris pour le DD des tests d&rsquo;Ing&eacute;nierie n&eacute;cessaires pour les ouvrir, reportez-vous &agrave; la comp&eacute;tence Ing&eacute;nierie page 142.</p>",
+			"frSource": "RDB p.221",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Medical Lab": {
+			"frName": "Laboratoire médical",
+			"frDescription": "<p>Un laboratoire m&eacute;dical complet contient des lits, des &eacute;quipements de diagnostics, des capteurs, des instruments et m&ecirc;me un petit bloc op&eacute;ratoire. Il n&rsquo;est g&eacute;n&eacute;ralement pas transportable &agrave; moins qu&rsquo;il ne soit install&eacute; dans un vaisseau spatial ou un v&eacute;hicule d&rsquo;une taille au moins TG. Il vous permet de traiter trois patients &agrave; la fois et vous&nbsp;pouvez utiliser la t&acirc;che traitement des blessures mortelles de la comp&eacute;tence&nbsp; m&eacute;decine deux fois par jour sur chaque patient. Sinon, le laboratoire fonctionne comme un medkit avanc&eacute;.</p>",
+			"frSource": "RDB p.220",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Merciful": {
+			"frName": "Miséricordieuse",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">A weapon with the <em>merciful </em>fusion often hums pleasantly when at rest and makes soft, airy musical noises when it is used to make an attack. The magic of this fusion subdues the damaging effect of the weapon it is added to. While this fusion is active, the weapon’s regular damage becomes nonlethal damage. If the weapon deals two types of damage, both of the damage types become nonlethal. You can activate or deactivate the <em>merciful</em> fusion as a swift action.&nbsp;</span></p>",
+			"frSource": "RDB p.194",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Mindlink Circlet, Mk 1": {
+			"frName": "Bandeau de lien mental, Mk 1",
+			"frDescription": "<h2>Mindlink Circlet</h2><p>Although items with powers similar to those of the&nbsp;mindlink circlet&nbsp;have existed in the Pact Worlds for thousands of years, the technological components of the this useful item were an innovation that made its powers readily available. The effects of a mindlink circlet depend upon its model, as described below.</p><p>&nbsp;</p><p><strong>You can telepathically communicate with any creatures within 30 feet with which you share a language. This functions like a @Compendium[sfrpg.races.VIJ6pdOVTJle3vJx]{Shirren}&rsquo;s limited telepathy racial trait.</strong></p>",
+			"frSource": "RDB p.226",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Mindlink Circlet, Mk 2": {
+			"frName": "Bandeau de lien mental, Mk 2",
+			"frDescription": "<h2>Mindlink Circlet</h2><p>Although items with powers similar to those of the&nbsp;mindlink circlet&nbsp;have existed in the Pact Worlds for thousands of years, the technological components of the this useful item were an innovation that made its powers readily available. The effects of a mindlink circlet depend upon its model, as described below.</p><p>&nbsp;</p><p><strong>You can telepathically communicate with any creatures within 100 feet with which you share a language. This otherwise functions like a @Compendium[sfrpg.races.VIJ6pdOVTJle3vJx]{Shirren}&rsquo;s limited telepathy racial trait.</strong></p>",
+			"frSource": "RDB p.226",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Mindlink Circlet, Mk 3": {
+			"frName": "Bandeau de lien mental, Mk 3",
+			"frDescription": "<h1>Mindlink Circlet</h1><p>Although items with powers similar to those of the&nbsp;mindlink circlet&nbsp;have existed in the Pact Worlds for thousands of years, the technological components of the this useful item were an innovation that made its powers readily available. The effects of a mindlink circlet depend upon its model, as described below.</p><p>&nbsp;</p><p><strong>You can telepathically communicate with any creatures within 100 feet that are capable of understanding language, including languages you do not understand. This otherwise functions like a @Compendium[sfrpg.races.VIJ6pdOVTJle3vJx]{Shirren}&rsquo;s limited telepathy racial trait.</strong></p>",
+			"frSource": "RDB p.226",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"NIL grenade launcher, merc": {
+			"frName": "Lance-grenades LIN, mercenaire",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">NIL (an acronym for “neutronic individual launcher”) grenade launchers are the most common grenade launcher available on the market. NILs can be fitted with any sort of grenade as ammunition. Grenades are loaded individually, rather than in magazines. You can load different types of grenades into a NIL grenade launcher, and you can select which grenade to fire as part of the action used to make an attack.&nbsp;</span></p>",
+			"frSource": "RDB p.189",
+			"rangeValue": 18.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"NIL grenade launcher, squad": {
+			"frName": "Lance-grenades LIN, escouade",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">NIL (an acronym for “neutronic individual launcher”) grenade launchers are the most common grenade launcher available on the market. NILs can be fitted with any sort of grenade as ammunition. Grenades are loaded individually, rather than in magazines. You can load different types of grenades into a NIL grenade launcher, and you can select which grenade to fire as part of the action used to make an attack.&nbsp;</span></p>",
+			"frSource": "RDB p.189",
+			"rangeValue": 21.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Ominous": {
+			"frName": "Funeste",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">A weapon with the <em>ominous </em>fusion trails a shadowy haze behind it and moans a menacing dirge in battle. The weapon gains intimidation as a critical hit effect. If the weapon already has a critical hit effect, when you score a critical hit, you can apply either the weapon’s normal critical hit effect or the intimidation effect. A target affected by the intimidation critical hit effect is @Compendium[sfrpg.conditions.nywSVEeDvp1bk7L3]{Shaken} for 1d4 rounds (Fortitude save negates). A creature that gains the @Compendium[sfrpg.conditions.nywSVEeDvp1bk7L3]{Shaken} condition from a weapon with the ominous fusion can’t gain that condition again from the same weapon for 24 hours.&nbsp;</span></p>",
+			"frSource": "RDB p.194",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Phase shield": {
+			"frName": "Bouclier de phase",
+			"frDescription": "<p>Vous pouvez activer cette am&eacute;lioration pour g&eacute;n&eacute;rer un bouclier bleut&eacute; translucide et brillant sur un de vos bras. Il peut vous aider &agrave; bloquer des attaques. Il faut une action de mouvement pour l&rsquo;activer ou le d&eacute;sactiver. Tant que le bouclier est actif, vous b&eacute;n&eacute;ficiez d&rsquo;un bonus d&rsquo;alt&eacute;ration de +1 &agrave; votre CAE. Le bouclier de phase g&ecirc;ne l&rsquo;utilisation du bras sur lequel il est install&eacute;. Aussi, tant qu&rsquo;il est actif, vous pouvez tenir en main un objet mais vous ne pouvez l&rsquo;utiliser ou attaquer avec.</p> <p>Cette am&eacute;lioration ne peut &ecirc;tre install&eacute;e que sur des armures lourdes ou assist&eacute;es.</p> <p><strong>Capacit&eacute;&nbsp;</strong>40&nbsp;<strong>Consommation&nbsp;</strong>2</p>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Portable Light, Beacon": {
+			"frName": "Éclairages portables, balise",
+			"frDescription": "<h2>Eclairages portables</h2> <p>Un &eacute;clairage portable, parfois appel&eacute; torche &eacute;lectrique, n&rsquo;est qu&rsquo;un des nombreux types d&rsquo;appareils diff&eacute;rents qui utilisent des batteries pour g&eacute;n&eacute;rer de la lumi&egrave;re. Un &eacute;clairage portable augmente la luminosit&eacute; d&rsquo;un cran dans une zone dont la dimension d&eacute;pend du mod&egrave;le : lampe torche (c&ocirc;ne de 6 m&egrave;tres), lanterne (3 m&egrave;tres de rayon), balise (15 m&egrave;tres de rayon) et projecteur (c&ocirc;ne de 30 m&egrave;tres).</p> <p><strong>Capacit&eacute;&nbsp;</strong>10;&nbsp;<strong>Consomation</strong>1/heure</p>",
+			"frSource": "RDB p.220",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Portable Light, Flashlight": {
+			"frName": "Éclairages portables, lampe torche",
+			"frDescription": "<h2>Eclairages portables</h2> <p>Un &eacute;clairage portable, parfois appel&eacute; torche &eacute;lectrique, n&rsquo;est qu&rsquo;un des nombreux types d&rsquo;appareils diff&eacute;rents qui utilisent des batteries pour g&eacute;n&eacute;rer de la lumi&egrave;re. Un &eacute;clairage portable augmente la luminosit&eacute; d&rsquo;un cran dans une zone dont la dimension d&eacute;pend du mod&egrave;le : lampe torche (c&ocirc;ne de 6 m&egrave;tres), lanterne (3 m&egrave;tres de rayon), balise (15 m&egrave;tres de rayon) et projecteur (c&ocirc;ne de 30 m&egrave;tres).</p> <p><strong>Capacit&eacute;&nbsp;</strong>10;&nbsp;<strong>Consomation</strong>1/heure</p>",
+			"frSource": "RDB p.220",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Portable Light, Lantern": {
+			"frName": "Éclairages portables, lanterne",
+			"frDescription": "<h2>Eclairages portables</h2> <p>Un &eacute;clairage portable, parfois appel&eacute; torche &eacute;lectrique, n&rsquo;est qu&rsquo;un des nombreux types d&rsquo;appareils diff&eacute;rents qui utilisent des batteries pour g&eacute;n&eacute;rer de la lumi&egrave;re. Un &eacute;clairage portable augmente la luminosit&eacute; d&rsquo;un cran dans une zone dont la dimension d&eacute;pend du mod&egrave;le : lampe torche (c&ocirc;ne de 6 m&egrave;tres), lanterne (3 m&egrave;tres de rayon), balise (15 m&egrave;tres de rayon) et projecteur (c&ocirc;ne de 30 m&egrave;tres).</p> <p><strong>Capacit&eacute;&nbsp;</strong>10;&nbsp;<strong>Consomation</strong>1/heure</p>",
+			"frSource": "RDB p.220",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Portable Light, Spotlight": {
+			"frName": "Éclairages portables, projecteur",
+			"frDescription": "<h2>Eclairages portables</h2> <p>Un &eacute;clairage portable, parfois appel&eacute; torche &eacute;lectrique, n&rsquo;est qu&rsquo;un des nombreux types d&rsquo;appareils diff&eacute;rents qui utilisent des batteries pour g&eacute;n&eacute;rer de la lumi&egrave;re. Un &eacute;clairage portable augmente la luminosit&eacute; d&rsquo;un cran dans une zone dont la dimension d&eacute;pend du mod&egrave;le : lampe torche (c&ocirc;ne de 6 m&egrave;tres), lanterne (3 m&egrave;tres de rayon), balise (15 m&egrave;tres de rayon) et projecteur (c&ocirc;ne de 30 m&egrave;tres).</p> <p><strong>Capacit&eacute;&nbsp;</strong>10;&nbsp;<strong>Consomation</strong>1/heure</p>",
+			"frSource": "RDB p.220",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Quick-release sheath": {
+			"frName": "Fourreau réactif",
+			"frDescription": "<p>Ce compartiment articul&eacute; peut contenir une arme &agrave; une main avec un volume faible au maximum. Vous pouvez activer cette am&eacute;lioration par une action rapide pour prendre en main cet objet comme s&rsquo;il &eacute;tait pr&ecirc;t &agrave; &ecirc;tre utilis&eacute;.</p>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Radiation buffer": {
+			"frName": "Atténuateur de radiations",
+			"frDescription": "<p>Cet appareil vous octroie un bonus de +2 &agrave; votre jet de sauvegarde initial contre les radiations (voir page 403) en plus de tous les autres bonus accord&eacute;s par la protection environnementale de votre armure. Ce bonus ne s&rsquo;applique pas aux jets de sauvegarde contre les effets secondaires dus aux radiations</p>",
+			"frSource": "RDB p.205",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Regeneration Table": {
+			"frName": "Caisson de régénération",
+			"frDescription": "<p>Un caisson de r&eacute;g&eacute;n&eacute;ration est un lit m&eacute;dicalis&eacute; qui est &eacute;quip&eacute; de la technologie la plus moderne des Mondes du Pacte pour soigner int&eacute;gralement une cr&eacute;ature des pires blessures et m&ecirc;me lui redonner la vie. Pour cela, il utilise des nanites &agrave; verrouillage quantique maintenues dans un &eacute;tat suspendu &agrave; partir duquel elles peuvent se transformer en presque n&rsquo;importe quel type de mati&egrave;re y compris des cellules souches pour les cr&eacute;atures biologiques ou des composants m&eacute;caniques pour les cr&eacute;atures artificielles comme les andro&iuml;des ou les anacites d&rsquo;Akiton. Le caisson analyse le code g&eacute;n&eacute;tique de la cr&eacute;ature (ou des donn&eacute;es &eacute;quivalentes) et utilise des algorithmes pr&eacute;dictifs pour d&eacute;terminer l&rsquo;&eacute;tendue des dommages ou des afflictions puis, en se basant sur ces informations, il tente de rendre &agrave; son patient une parfaite sant&eacute;.</p><p></p><p>Une cr&eacute;ature vivante utilisant un caisson de r&eacute;g&eacute;n&eacute;ration est consid&eacute;r&eacute;e comme &eacute;tant soumise au sort de niveau 6 gu&eacute;rison mystique ainsi qu&rsquo;aux sorts neutralisation d&rsquo;affliction et restauration. L&rsquo;objet affecte les cr&eacute;atures mortes comme si ces derni&egrave;res b&eacute;n&eacute;ficiaient du sort rappel &agrave; la vie. Le caisson de gu&eacute;rison a un niveau de lanceur de sorts de 20.</p><p></p><p>Puisque le caisson a besoins d&rsquo;&ecirc;tre parfaitement synchronis&eacute; avec la cr&eacute;ature qu&rsquo;il traite et qu&rsquo;il utilise ses particules quantiques pour la soigner, il ne peut &ecirc;tre utilis&eacute; qu&rsquo;une fois avant de devenir inerte et inutile.</p>",
+			"frSource": "RDB p.219",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Restraints, Binders": {
+			"frName": "Contentions, tiges de contention",
+			"frDescription": "<h2>Contentions</h2><p>Les tiges de contention sont de simples tiges en fibres de r&eacute;sine &agrave; usage unique que l&rsquo;on peut utiliser pour entraver des cr&eacute;atures sans d&eacute;fense, immobilis&eacute;es ou volontaires (une action simple). Une paire permet d&rsquo;immobiliser deux membres de votre choix. Une cr&eacute;ature peut se d&eacute;faire des tiges de contention en r&eacute;ussissant un test d&rsquo;Acrobaties (DD30).</p><p>Les menottes sont des liens r&eacute;utilisables en c&eacute;ramique ou en m&eacute;tal renforc&eacute; et con&ccedil;ues pour &ecirc;tre ouvertes avec un passe de s&eacute;curit&eacute;, un code ou une commande vocale (d&eacute;termin&eacute; au moment de la fabrication). On peut les utiliser pour entraver des cr&eacute;atures sans d&eacute;fense, immobilis&eacute;es ou volontaires (une action simple). Les menottes emp&ecirc;chent de tenir ou d&rsquo;utiliser un objet avec deux mains. On peut se d&eacute;barrasser de menottes en r&eacute;ussissant un test d&rsquo;Acrobaties DD 30.</p>",
+			"frSource": "RDB p.220",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Restraints, Manacles": {
+			"frName": "Contentions, menottes",
+			"frDescription": "<h2>Contentions</h2><p>Les tiges de contention sont de simples tiges en fibres de r&eacute;sine &agrave; usage unique que l&rsquo;on peut utiliser pour entraver des cr&eacute;atures sans d&eacute;fense, immobilis&eacute;es ou volontaires (une action simple). Une paire permet d&rsquo;immobiliser deux membres de votre choix. Une cr&eacute;ature peut se d&eacute;faire des tiges de contention en r&eacute;ussissant un test d&rsquo;Acrobaties (DD30).</p><p>Les menottes sont des liens r&eacute;utilisables en c&eacute;ramique ou en m&eacute;tal renforc&eacute; et con&ccedil;ues pour &ecirc;tre ouvertes avec un passe de s&eacute;curit&eacute;, un code ou une commande vocale (d&eacute;termin&eacute; au moment de la fabrication). On peut les utiliser pour entraver des cr&eacute;atures sans d&eacute;fense, immobilis&eacute;es ou volontaires (une action simple). Les menottes emp&ecirc;chent de tenir ou d&rsquo;utiliser un objet avec deux mains. On peut se d&eacute;barrasser de menottes en r&eacute;ussissant un test d&rsquo;Acrobaties DD 30.</p>",
+			"frSource": "RDB p.220",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Returning": {
+			"frName": "Boomerang",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">You can add this fusion only to a weapon that has the thrown weapon special property. A <em>returning </em>weapon flies through the air back to you after you make a thrown ranged attack with it. It returns to you just before your next turn (and is therefore ready to use again in that turn). Catching the weapon when it comes back takes no action. If you can’t catch it, or if you have moved since throwing it, the weapon drops to the ground in the square from which you threw it.&nbsp;</span></p>",
+			"frSource": "RDB p.193",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Scanner, Laser Microphone": {
+			"frName": "Microphone laser",
+			"frDescription": "<h2>Microphone laser</h2> <p>Ce d&eacute;tecteur portable vous permet d&rsquo;&eacute;couter &agrave; tr&egrave;s longue port&eacute;e &agrave; travers des mat&eacute;riaux qui, normalement,</p> <p>ne laissent pas passer les sons. Il vous octroie perception p&eacute;n&eacute;trante (ou&iuml;e) mais uniquement &agrave; travers des mat&eacute;riaux dont l&rsquo;&eacute;paisseur est inf&eacute;rieure ou &eacute;gale &agrave; 2,5 cm.</p> <p>De plus, chaque test de Perception avec cet appareil demande une action complexe au cours de laquelle vous &ecirc;tes pris au d&eacute;pourvu.</p> <p><strong>Capacit&eacute;&nbsp;</strong>20&nbsp;<strong>Consommation&nbsp;</strong>2/heures</p>",
+			"frSource": "RDB p.221",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Scanner, Motion Detector": {
+			"frName": "Détecteur de mouvements",
+			"frDescription": "<p>Ce d&eacute;tecteur portable est capable de d&eacute;tecter les variations d&rsquo;&eacute;nergie cin&eacute;tique comme celles provoqu&eacute;es par les d&eacute;placements de cr&eacute;atures ou de v&eacute;hicules. Les d&eacute;tecteurs de mouvements b&eacute;n&eacute;ficient de perception aveugle (vibration) sur une distance de 9 m&egrave;tres mais, pour utiliser l&rsquo;appareil, vous devez utiliser une action de mouvement &agrave; chaque round</p> <p>&nbsp;<strong>Capacit&eacute;&nbsp;</strong>10&nbsp;<strong>Consommation&nbsp;</strong>1/heure</p>",
+			"frSource": "RDB p.220",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Scanner, X-Ray Visor": {
+			"frName": "Visière à rayons X",
+			"frDescription": "<h2>Visi&egrave;re &agrave; rayons X</h2> <p>Cet appareil s&rsquo;ajuste sur les yeux comme des jumelles ou d&rsquo;&eacute;paisses lunettes. Il &eacute;met des rayons X et interpr&egrave;te les informations re&ccedil;ues sous forme d&rsquo;images qu&rsquo;il superpose &agrave; votre vue normale. Cela vous octroie perception p&eacute;n&eacute;trante (vision) bien que l&rsquo;appareil soit bloqu&eacute; par des mat&eacute;riaux cinq fois moins &eacute;pais que ceux qui bloquent une perception p&eacute;n&eacute;trante normale (60 cm de bois, 30 cm de pierre, 5 cm de m&eacute;taux communs ou 2,5 cm de plomb ou de m&eacute;tal stellaire).</p> <p>De plus, vous &ecirc;tes limit&eacute; &agrave; une vision en noir et blanc quand vous l&rsquo;utilisez. Tant que la visi&egrave;re est active, vous ne b&eacute;n&eacute;ficiez d&rsquo;aucun autre sens visuel sp&eacute;cial (comme vision nocturne) et vous ne pouvez tenter de tests de Perception bas&eacute;s sur la vue au-del&agrave; de 18 m&egrave;tres. Activer ou d&eacute;sactiver la visi&egrave;re est une action de mouvement</p> <p>&nbsp;<strong>Capacit&eacute;&nbsp;</strong>40&nbsp;<strong>Consommation&nbsp;</strong>2/round</p>",
+			"frSource": "RDB p.221",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Screamer grenade I": {
+			"frName": "Grenade hurlante I",
+			"frDescription": "<p>When detonated, a screamer grenade releases a piercing shriek of sonic energy</p>",
+			"frSource": "RDB p.187",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Screamer grenade II": {
+			"frName": "Grenade hurlante II",
+			"frDescription": "<p>When detonated, a screamer grenade releases a piercing shriek of sonic energy</p>",
+			"frSource": "RDB p.187",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Screamer grenade III": {
+			"frName": "Grenade hurlante III",
+			"frDescription": "<p>When detonated, a screamer grenade releases a piercing shriek of sonic energy</p>",
+			"frSource": "RDB p.187",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Screamer grenade IV": {
+			"frName": "Grenade hurlante IV",
+			"frDescription": "<p>When detonated, a screamer grenade releases a piercing shriek of sonic energy</p>",
+			"frSource": "RDB p.187",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Sedative, Tier 1": {
+			"frName": "Sédatif, Tier 1",
+			"frDescription": "<h2>S&eacute;datif</h2><p>On peut facilement se procurer de nombreux s&eacute;datifs aux effets mod&eacute;r&eacute;s utilis&eacute;s pour des soins m&eacute;dicaux, des substances tr&egrave;s appr&eacute;ci&eacute;es des chasseurs de primes pour capturer leurs proies vivantes. Si vous prenez un s&eacute;datif, ou si on vous l&rsquo;injecte, vous subissez des d&eacute;g&acirc;ts non l&eacute;taux. Un s&eacute;datif de niveau 1 inflige 1d4 points de d&eacute;g&acirc;ts non l&eacute;taux, un s&eacute;datif de niveau 2 inflige 2d4 points de d&eacute;g&acirc;ts non l&eacute;taux, un s&eacute;datif de niveau 3 inflige 4d4 points de d&eacute;g&acirc;ts non l&eacute;taux et un s&eacute;datif de niveau 4 inflige 8d4 points de d&eacute;g&acirc;ts non l&eacute;taux. Quand vous &ecirc;tes soumis &agrave; un effet de terreur ou affectant vos &eacute;motions (qui n&rsquo;est ni permanent, ni instantan&eacute;) qui vous autorise un jet de sauvegarde pour l&rsquo;annuler, vous pouvez utiliser un s&eacute;datif (que vous prenez ou qu&rsquo;on vous injecte) pour tenter imm&eacute;diatement un nouveau jet de sauvegarde pour annuler cet effet avec un bonus &eacute;gal au niveau du s&eacute;datif.</p>",
+			"frSource": "RDB p.232",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Sedative, Tier 2": {
+			"frName": "Sédatif, Tier 2",
+			"frDescription": "<h2>S&eacute;datif</h2><p>On peut facilement se procurer de nombreux s&eacute;datifs aux effets mod&eacute;r&eacute;s utilis&eacute;s pour des soins m&eacute;dicaux, des substances tr&egrave;s appr&eacute;ci&eacute;es des chasseurs de primes pour capturer leurs proies vivantes. Si vous prenez un s&eacute;datif, ou si on vous l&rsquo;injecte, vous subissez des d&eacute;g&acirc;ts non l&eacute;taux. Un s&eacute;datif de niveau 1 inflige 1d4 points de d&eacute;g&acirc;ts non l&eacute;taux, un s&eacute;datif de niveau 2 inflige 2d4 points de d&eacute;g&acirc;ts non l&eacute;taux, un s&eacute;datif de niveau 3 inflige 4d4 points de d&eacute;g&acirc;ts non l&eacute;taux et un s&eacute;datif de niveau 4 inflige 8d4 points de d&eacute;g&acirc;ts non l&eacute;taux. Quand vous &ecirc;tes soumis &agrave; un effet de terreur ou affectant vos &eacute;motions (qui n&rsquo;est ni permanent, ni instantan&eacute;) qui vous autorise un jet de sauvegarde pour l&rsquo;annuler, vous pouvez utiliser un s&eacute;datif (que vous prenez ou qu&rsquo;on vous injecte) pour tenter imm&eacute;diatement un nouveau jet de sauvegarde pour annuler cet effet avec un bonus &eacute;gal au niveau du s&eacute;datif.</p>",
+			"frSource": "RDB p.232",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Sedative, Tier 3": {
+			"frName": "Sédatif, Tier 3",
+			"frDescription": "<h2>S&eacute;datif</h2><p>On peut facilement se procurer de nombreux s&eacute;datifs aux effets mod&eacute;r&eacute;s utilis&eacute;s pour des soins m&eacute;dicaux, des substances tr&egrave;s appr&eacute;ci&eacute;es des chasseurs de primes pour capturer leurs proies vivantes. Si vous prenez un s&eacute;datif, ou si on vous l&rsquo;injecte, vous subissez des d&eacute;g&acirc;ts non l&eacute;taux. Un s&eacute;datif de niveau 1 inflige 1d4 points de d&eacute;g&acirc;ts non l&eacute;taux, un s&eacute;datif de niveau 2 inflige 2d4 points de d&eacute;g&acirc;ts non l&eacute;taux, un s&eacute;datif de niveau 3 inflige 4d4 points de d&eacute;g&acirc;ts non l&eacute;taux et un s&eacute;datif de niveau 4 inflige 8d4 points de d&eacute;g&acirc;ts non l&eacute;taux. Quand vous &ecirc;tes soumis &agrave; un effet de terreur ou affectant vos &eacute;motions (qui n&rsquo;est ni permanent, ni instantan&eacute;) qui vous autorise un jet de sauvegarde pour l&rsquo;annuler, vous pouvez utiliser un s&eacute;datif (que vous prenez ou qu&rsquo;on vous injecte) pour tenter imm&eacute;diatement un nouveau jet de sauvegarde pour annuler cet effet avec un bonus &eacute;gal au niveau du s&eacute;datif.</p>",
+			"frSource": "RDB p.232",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Sedative, Tier 4": {
+			"frName": "Sédatif, Tier 4",
+			"frDescription": "<h2>S&eacute;datif</h2><p>On peut facilement se procurer de nombreux s&eacute;datifs aux effets mod&eacute;r&eacute;s utilis&eacute;s pour des soins m&eacute;dicaux, des substances tr&egrave;s appr&eacute;ci&eacute;es des chasseurs de primes pour capturer leurs proies vivantes. Si vous prenez un s&eacute;datif, ou si on vous l&rsquo;injecte, vous subissez des d&eacute;g&acirc;ts non l&eacute;taux. Un s&eacute;datif de niveau 1 inflige 1d4 points de d&eacute;g&acirc;ts non l&eacute;taux, un s&eacute;datif de niveau 2 inflige 2d4 points de d&eacute;g&acirc;ts non l&eacute;taux, un s&eacute;datif de niveau 3 inflige 4d4 points de d&eacute;g&acirc;ts non l&eacute;taux et un s&eacute;datif de niveau 4 inflige 8d4 points de d&eacute;g&acirc;ts non l&eacute;taux. Quand vous &ecirc;tes soumis &agrave; un effet de terreur ou affectant vos &eacute;motions (qui n&rsquo;est ni permanent, ni instantan&eacute;) qui vous autorise un jet de sauvegarde pour l&rsquo;annuler, vous pouvez utiliser un s&eacute;datif (que vous prenez ou qu&rsquo;on vous injecte) pour tenter imm&eacute;diatement un nouveau jet de sauvegarde pour annuler cet effet avec un bonus &eacute;gal au niveau du s&eacute;datif.</p>",
+			"frSource": "RDB p.232",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Shock": {
+			"frName": "Foudroyante",
+			"frDescription": "<p>The&nbsp;shock&nbsp;fusion weaves the electrical energy of the universe into the weapon&rsquo;s form. Half the weapon&rsquo;s damage type is replaced with electricity damage. You can activate or deactivate the shock fusion as a swift action. If the weapon already deals two types of damage, replace one of them with electricity (you decide which damage type to replace each time you activate the&nbsp;shock&nbsp;fusion). You can add this fusion only to a weapon that does not already deal electricity damage. This fusion never causes a weapon that normally target KAC to target EAC.</p>",
+			"frSource": "RDB p.194",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Shock grenade I": {
+			"frName": "Grenade choc I",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A shock grenade releases a pulse of electrical energy on impact.&nbsp;</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Shock grenade II": {
+			"frName": "Grenade choc II",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A shock grenade releases a pulse of electrical energy on impact.&nbsp;</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Shock grenade III": {
+			"frName": "Grenade choc III",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A shock grenade releases a pulse of electrical energy on impact.&nbsp;</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Shock grenade IV": {
+			"frName": "Grenade choc IV",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A shock grenade releases a pulse of electrical energy on impact.&nbsp;</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Shock grenade V": {
+			"frName": "Grenade choc V",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A shock grenade releases a pulse of electrical energy on impact.&nbsp;</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Signal Jammer": {
+			"frName": "Brouilleur de signal",
+			"frDescription": "<p>Cet appareil portable, &agrave; l&rsquo;origine con&ccedil;u par les Intendants pour des op&eacute;rations militaires, est utilis&eacute; aussi bien par les entreprises que par les criminels. On peut en trouver avec un niveau d&rsquo;objet compris entre 1 et 20 et leur prix est &eacute;gal au niveau d&rsquo;objet du brouilleur au carr&eacute; x 100 cr&eacute;dits. Quand on l&rsquo;active, un brouilleur interrompt toutes les transmissions dans un rayon de 6 kilom&egrave;tres. Si on le fixe &agrave; un &eacute;metteur plus puissant (comme ceux que l&rsquo;on trouve &agrave; bord des vaisseaux spatiaux) la port&eacute;e est augment&eacute;e &agrave; 19 kilom&egrave;tres.</p> <p>Un brouilleur emp&ecirc;che tous les appareils de communication d&rsquo;envoyer ou de recevoir des &eacute;missions. Chaque brouilleur est con&ccedil;u pour affecter un type de transmission particulier (comme les ondes radios ou les communications sans fil). Vous pouvez tenter un test d&rsquo;Informatique ou d&rsquo;Ing&eacute;nierie pour contourner les effets d&rsquo;un brouilleur ou pour d&eacute;terminer l&rsquo;endroit o&ugrave; il se trouve. Le DD pour contourner les effets du brouilleur est de 15 + le niveau du brouilleur et ce test demande 1 minute.</p> <p><strong>Niveau&nbsp;</strong>Varie;&nbsp;<strong>Prix&nbsp;</strong>Niveau au carr&eacute; x 100</p> <p><strong>Capacit&eacute;&nbsp;</strong>12;&nbsp;<strong>Consommation&nbsp;</strong>1/10 minute</p>",
+			"frSource": "RDB p.218",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Smoke grenade": {
+			"frName": "Grenade fumigène",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A smoke grenade deals no damage; instead, it releases a cloud of dense smoke. Each character who inhales smoke must succeed at a Fortitude saving throw each round (DC = 15 + 1 per previous check) or spend that round choking and coughing; he can do nothing else. A character who chokes for 2 consecutive rounds takes 1d6 nonlethal damage. (Active environmental protection from a suit of armor prevents this effect altogether.) Regardless of the armor a character wears, smoke obscures vision, granting concealment to anyone within it.</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Sonic dampener": {
+			"frName": "Atténuateur sonique",
+			"frDescription": "<p>Ce dispositif &eacute;touffe les bruits que vous pouvez produire et r&eacute;duit la puissance des attaques soniques. Vous gagnez r&eacute;sistance aux sons 5 et vous r&eacute;duisez le malus d&rsquo;armure de 1 point quand vous effectuez un test de Discr&eacute;tion.</p>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Spell reflector, mk 1 (magic)": {
+			"frName": "Réflecteur de sorts (magique), Mk 1",
+			"frDescription": "<p>Quand vous &ecirc;tes la cible d&rsquo;un sort, en r&eacute;action, vous pouvez activer le r&eacute;flecteur de sorts. Cela n&rsquo;affecte pas les sorts qui visent une zone dans laquelle vous vous trouvez ou qui vous affectent d&rsquo;une autre mani&egrave;re ; le r&eacute;flecteur n&rsquo;agit que contre les sorts qui vous ciblent sp&eacute;cifiquement. Le sort est renvoy&eacute; vers celui qui l&rsquo;a lanc&eacute; comme si ce dernier &eacute;tait la cible. Le type de r&eacute;flecteur d&eacute;termine le niveau des sorts qui peuvent &ecirc;tre renvoy&eacute;s. Les charges d&rsquo;un r&eacute;flecteur de sorts se r&eacute;g&eacute;n&egrave;rent chaque jour.</p> <p>Cette am&eacute;lioration ne peut &ecirc;tre install&eacute;e que sur des armures l&eacute;g&egrave;res ou lourdes.</p> <ul> <li><strong>Mk 1:</strong> vous pouvez renvoyer des sorts de niveau 4 ou de niveau inf&eacute;rieur.</li> <li><strong>Mk 2:</strong> vous pouvez renvoyer des sorts de niveau 6 ou de niveau inf&eacute;rieur.</li> </ul> <p><strong>Capacit&eacute;&nbsp;</strong>1&nbsp;<strong>Consommation&nbsp;</strong>1</p>",
+			"frSource": "RDB p.207",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Spell reflector, mk 2 (magic)": {
+			"frName": "Réflecteur de sorts (magique), Mk 2",
+			"frDescription": "<p>Quand vous &ecirc;tes la cible d&rsquo;un sort, en r&eacute;action, vous pouvez activer le r&eacute;flecteur de sorts. Cela n&rsquo;affecte pas les sorts qui visent une zone dans laquelle vous vous trouvez ou qui vous affectent d&rsquo;une autre mani&egrave;re ; le r&eacute;flecteur n&rsquo;agit que contre les sorts qui vous ciblent sp&eacute;cifiquement. Le sort est renvoy&eacute; vers celui qui l&rsquo;a lanc&eacute; comme si ce dernier &eacute;tait la cible. Le type de r&eacute;flecteur d&eacute;termine le niveau des sorts qui peuvent &ecirc;tre renvoy&eacute;s. Les charges d&rsquo;un r&eacute;flecteur de sorts se r&eacute;g&eacute;n&egrave;rent chaque jour.</p> <p>Cette am&eacute;lioration ne peut &ecirc;tre install&eacute;e que sur des armures l&eacute;g&egrave;res ou lourdes.</p> <ul> <li><strong>Mk 1:</strong> vous pouvez renvoyer des sorts de niveau 4 ou de niveau inf&eacute;rieur.</li> <li><strong>Mk 2:</strong> vous pouvez renvoyer des sorts de niveau 6 ou de niveau inf&eacute;rieur.</li> </ul> <p><strong>Capacit&eacute;&nbsp;</strong>1 <strong>Consommation&nbsp;</strong>1</p>",
+			"frSource": "RDB p.207",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Spy Drone": {
+			"frName": "Drone espion",
+			"frDescription": "<p>Un drone espion est un minuscule drone command&eacute; &agrave; distance con&ccedil;u pour surveiller des objectifs de loin. C&rsquo;est l&rsquo;&eacute;quivalent d&rsquo;un drone volant de m&eacute;cano de niveau 1 (et vous le contr&ocirc;lez comme si vous &eacute;tiez un m&eacute;cano de niveau 1 en utilisant sa t&eacute;l&eacute;commande ou un ordinateur avec un module de contr&ocirc;le pour le drone) mais il ne peut effectuer aucune attaque, n&rsquo;a aucun emplacement d&rsquo;arme, aucun don et on ne peut lui ajouter de modules pour drone. Son module de comp&eacute;tence est toujours Discr&eacute;tion.</p> <p>Il ne peut pas parler mais il comprend un langage (que vous choisissez au moment de l&rsquo;achat) et il vous permet de tenter des tests de Perception en utilisant votre propre bonus quand vous le contr&ocirc;lez directement (comme la capacit&eacute; sp&eacute;ciale ma&icirc;tre contr&ocirc;le d&rsquo;un drone de m&eacute;cano). Un drone peut &ecirc;tre am&eacute;lior&eacute; avec n&rsquo;importe lequel de ces appareils technologiques en payant 125 % du prix de l&rsquo;appareil : lampe torche, agrippeur, lanterne, microphone laser, d&eacute;tecteur de mouvements, scanner ou visi&egrave;re &agrave; rayon X.</p> <p>Le prix d&rsquo;achat et d&rsquo;installation d&rsquo;une am&eacute;lioration inclut le prix du remplacement d&rsquo;une vieille am&eacute;lioration d&rsquo;un drone si cela est applicable.</p> <p>&nbsp;</p> <p><strong>Capacit&eacute;&nbsp;</strong>20&nbsp;<strong>Consommation&nbsp;</strong>1/minute</p>",
+			"frSource": "RDB p.220",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Stickybomb grenade I": {
+			"frName": "Grenade collante I",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A stickybomb grenade detonates with a splash of adhesive resin.</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Stickybomb grenade II": {
+			"frName": "Grenade collante II",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A stickybomb grenade detonates with a splash of adhesive resin.</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Stickybomb grenade III": {
+			"frName": "Grenade collante III",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">A stickybomb grenade detonates with a splash of adhesive resin.</span></p>",
+			"frSource": "RDB p.186",
+			"rangeValue": 6.0,
+			"rangeUnits": "meter",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Targeting computer": {
+			"frName": "Ordinateur de visée",
+			"frDescription": "<p>Cet ordinateur de vis&eacute;e vous aide &agrave; compenser de mauvaises conditions de visibilit&eacute;. Vous ignorez les camouflages pour vos attaques. Cet appareil n&rsquo;a aucun effet contre les cibles b&eacute;n&eacute;ficiant d&rsquo;un camouflage total.</p>",
+			"frSource": "RDB p.207",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Tensile reinforcement": {
+			"frName": "Renfort de tension",
+			"frDescription": "<p>Quand vous calculez la solidit&eacute; et les points de vie de votre armure (voir page 409), vous consid&eacute;rez que&nbsp; cette derni&egrave;re a un niveau d&rsquo;objet sup&eacute;rieur de 5 points.</p>",
+			"frSource": "RDB p.207",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Tent, Mass Produced": {
+			"frName": "Tente, produites en masse",
+			"frDescription": "<h2>Tente, produites en masse</h2><p>Les tentes sont con&ccedil;ues pour prot&eacute;ger leurs occupants des intemp&eacute;ries. Une tente standard peut abriter deux personnes mais vous pouvez doubler sa contenance en doublant son prix, la tripler en triplant son prix, etc.</p><p>&nbsp;Une tente produite en masse est isol&eacute;e, r&eacute;sistante et suffisamment ventil&eacute;e pour &eacute;viter d&rsquo;&eacute;touffer ou d&rsquo;avoir trop chaud sans pour autant sacrifier la protection qu&rsquo;elle offre. Elle permet &agrave; ceux qui y sont &agrave; l&rsquo;abri de consid&eacute;rer un temps froid extr&ecirc;me comme un temps froid rigoureux, un temps froid rigoureux comme un temps froid normal et d&rsquo;ignorer les effets d&rsquo;un temps froid. Une tente modifie la s&eacute;v&eacute;rit&eacute; d&rsquo;un climat chaud de la m&ecirc;me mani&egrave;re. Voir page 400 pour plus d&rsquo;informations sur les dangers du froid et page 402 pour plus d&rsquo;informations sur les dangers de la chaleur. Ce type de tentes ne prot&egrave;ge pas&nbsp;contre la fum&eacute;e, le feu, la lave, les radiations et les autres dangers environnementaux</p>",
+			"frSource": "RDB p.230",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Tent, Mobile Hotelier": {
+			"frName": "Tente, hôtellerie mobile",
+			"frDescription": "<h2>Tente, h&ocirc;tellerie mobile</h2><p>Les tentes sont con&ccedil;ues pour prot&eacute;ger leurs occupants des intemp&eacute;ries. Une tente standard peut abriter deux personnes mais vous pouvez doubler sa contenance en doublant son prix, la tripler en triplant son prix, etc...</p><p>Les tentes connues sous le nom d&rsquo;H&ocirc;telleries mobiles sont tr&egrave;s &eacute;volu&eacute;es et incorporent des syst&egrave;mes qui fournissent &agrave; leurs occupants les m&ecirc;mes protections qu&rsquo;une armure (voir page 196) quand elles sont actives. Ce type de tentes a besoin d&rsquo;une batterie de 20 charges pour fournir cette protection, consomme 1 charge toutes les 8 heures et est consid&eacute;r&eacute; comme un objet technologique pour les effets ou capacit&eacute;s qui ciblent ou neutralisent la technologie. M&ecirc;me sans ces syst&egrave;mes de protection, ce type de tente peut &ecirc;tre utilis&eacute; comme une tente produite en masse.</p>",
+			"frSource": "RDB p.230",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Textiles, Common": {
+			"frName": "Textiles, communs",
+			"frDescription": "<h2>Textiles</h2><p>Les textiles communs incluent le lin et la plupart des tissus synth&eacute;tiques. Les textiles de qualit&eacute; sont plus esth&eacute;tiques, plus r&eacute;sistants ou les deux. G&eacute;n&eacute;ralement, les &eacute;toffes en soie, en satin ou dans des mati&egrave;res similaires sont consid&eacute;r&eacute;es comme des tissus de qualit&eacute; mais il existe des textiles bien plus exotiques dans cette cat&eacute;gorie. Les textiles vraiment luxueux, dont le marramas et le samit, peuvent co&ucirc;ter bien plus cher que les textiles de qualit&eacute; sup&eacute;rieure.</p>",
+			"frSource": "RDB p.233",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Textiles, Fine": {
+			"frName": "Textiles, de qualité",
+			"frDescription": "<h2>Textiles</h2><p>Les textiles communs incluent le lin et la plupart des tissus synth&eacute;tiques. Les textiles de qualit&eacute; sont plus esth&eacute;tiques, plus r&eacute;sistants ou les deux. G&eacute;n&eacute;ralement, les &eacute;toffes en soie, en satin ou dans des mati&egrave;res similaires sont consid&eacute;r&eacute;es comme des tissus de qualit&eacute; mais il existe des textiles bien plus exotiques dans cette cat&eacute;gorie. Les textiles vraiment luxueux, dont le marramas et le samit, peuvent co&ucirc;ter bien plus cher que les textiles de qualit&eacute; sup&eacute;rieure.</p>",
+			"frSource": "RDB p.233",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Thermal capacitor, mk 1": {
+			"frName": "Régulateur thermique, Mk 1",
+			"frDescription": "<p>Cette am&eacute;lioration r&eacute;gule la chaleur, ce qui vous prot&egrave;ge des temp&eacute;ratures extr&ecirc;mes. Vous pouvez supporter confortablement des temp&eacute;ratures comprises entre &ndash;45&deg; et 76&deg; C sans avoir besoin de jets de Vigueur. De plus, l&rsquo;armure vous accorde une r&eacute;sistance au froid et au feu. Cette r&eacute;sistance d&eacute;pend du mod&egrave;le de r&eacute;gulateur install&eacute;</p> <ul> <li><strong>Mk 1:</strong> R&eacute;sistance 5</li> <li><strong>Mk 2:</strong> R&eacute;sistance 10</li> <li><strong>Mk 3:</strong> R&eacute;sistance 15</li> </ul>",
+			"frSource": "RDB p.207",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Thermal capacitor, mk 2": {
+			"frName": "Régulateur thermique, Mk 2",
+			"frDescription": "<p>Cette am&eacute;lioration r&eacute;gule la chaleur, ce qui vous prot&egrave;ge des temp&eacute;ratures extr&ecirc;mes. Vous pouvez supporter confortablement des temp&eacute;ratures comprises entre &ndash;45&deg; et 76&deg; C sans avoir besoin de jets de Vigueur. De plus, l&rsquo;armure vous accorde une r&eacute;sistance au froid et au feu. Cette r&eacute;sistance d&eacute;pend du mod&egrave;le de r&eacute;gulateur install&eacute;</p> <ul> <li><strong>Mk 1:</strong> R&eacute;sistance 5</li> <li><strong>Mk 2:</strong> R&eacute;sistance 10</li> <li><strong>Mk 3:</strong> R&eacute;sistance 15</li> </ul>",
+			"frSource": "RDB p.207",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Thermal capacitor, mk 3": {
+			"frName": "Régulateur thermique, Mk 3",
+			"frDescription": "<p>Cette am&eacute;lioration r&eacute;gule la chaleur, ce qui vous prot&egrave;ge des temp&eacute;ratures extr&ecirc;mes. Vous pouvez supporter confortablement des temp&eacute;ratures comprises entre &ndash;45&deg; et 76&deg; C sans avoir besoin de jets de Vigueur. De plus, l&rsquo;armure vous accorde une r&eacute;sistance au froid et au feu. Cette r&eacute;sistance d&eacute;pend du mod&egrave;le de r&eacute;gulateur install&eacute;</p> <ul> <li><strong>Mk 1:</strong> R&eacute;sistance 5</li> <li><strong>Mk 2:</strong> R&eacute;sistance 10</li> <li><strong>Mk 3:</strong> R&eacute;sistance 15</li> </ul>",
+			"frSource": "RDB p.207",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Thundering": {
+			"frName": "Tonnante",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">The <em>thundering </em>fusion imbues a weapon with heightened frequency vibrations. Half the weapon&rsquo;s damage type is replaced with sonic damage. You can activate or deactivate the <em>thundering </em>fusion as a swift action. If the weapon already deals two types of damage, replace one of them with sonic (you decide which damage type to replace each time you activate the <em>thundering </em>fusion). You can add this fusion only to a weapon that does not already deal sonic damage. This fusion never causes a weapon that normally target KAC to target EAC.</span></p>",
+			"frSource": "RDB p.195",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Titan shield": {
+			"frName": "Bouclier titan",
+			"frDescription": "<p>Cet &eacute;metteur g&eacute;n&egrave;re un large bouclier d&rsquo;&eacute;nergie unidirectionnel qui vous prot&egrave;ge contre des attaques. Vous pouvez activer ou d&eacute;sactiver le bouclier par une action de mouvement. Quand vous l&rsquo;activez, choisissez un c&ocirc;t&eacute; de votre case. Le bouclier s&rsquo;&eacute;tend en ligne droite sur trois c&ocirc;t&eacute;s continus centr&eacute;s sur celui que vous avez choisi. Il octroie un abri contre les attaques provenant de l&rsquo;autre c&ocirc;t&eacute; mais pas contre celles qui sont effectu&eacute;es du c&ocirc;t&eacute; o&ugrave; vous vous trouvez. Si vous vous d&eacute;placez, vous pouvez repositionner votre bouclier en choisissant un c&ocirc;t&eacute; diff&eacute;rent. Vous pouvez aussi d&eacute;penser une action de mouvement pour repositionner votre bouclier sans vous d&eacute;placer.</p> <p>Cette am&eacute;lioration ne peut &ecirc;tre install&eacute;e que sur des armures assist&eacute;es.</p> <p><strong>Capacit&eacute;</strong> 40 <strong>Consommation</strong> 10</p>",
+			"frSource": "RDB p.206",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Unholy": {
+			"frName": "Impie",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">The <em>unholy </em>fusion imbues a weapon with divine energy from an evil deity. Any attacks with the fused weapon are evil-aligned. Damage from the weapon overcomes DR/evil and ignores the energy resistance of good dragons and good outsiders. The <em>unholy</em> fusion can’t be added to weapons that have the <em>holy </em>fusion.&nbsp;</span></p>",
+			"frSource": "RDB p.194",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Venomous": {
+			"frName": "Venimeuse",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">A weapon with the <em>venomous </em>fusion gains the injection weapon special property (see page 181). Only a single attack each day may benefit from this property, and you must announce before making an attack that it is an injection attack. Regardless of how many targets you can hit with a single attack from your weapon, only a single target of your choice is exposed to the @Compendium[sfrpg.rules.aKqRtg165rAly1Cc]{Drug}, medicinal, or @Compendium[sfrpg.rules.aKqRtg165rAly1Cc]{Poison} when you use the injection property in an attack. Only weapons that deal piercing or slashing damage can benefit from this fusion.&nbsp;</span></p>",
+			"frSource": "RDB p.195",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Vorpal": {
+			"frName": "Vorpale",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">With the <em>vorpal </em>fusion, a weapon can tear between the molecules of a creature. The weapon gains the @Compendium[sfrpg.rules.O5GDQUKPCJ9Zbnfj]{Severe wound} critical hit effect (see page 182). If the weapon already has a critical hit effect, when you score a critical hit, you can apply either the weapon&rsquo;s normal critical hit effect or the @Compendium[sfrpg.rules.O5GDQUKPCJ9Zbnfj]{Severe wound} effect. Only a weapon that deals bludgeoning, piercing, or slashing damage can benefit from this fusion.&nbsp;</span></p>",
+			"frSource": "RDB p.195",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		},
+		"Wounding": {
+			"frName": "Sanglante",
+			"frDescription": "<p><span id=\"ctl00_MainContent_DataListWeaponFusions_ctl00_LabelName\">The <em>wounding </em>fusion causes a weapon to deal exceptionally traumatic damage. The weapon gains the @Compendium[sfrpg.rules.O5GDQUKPCJ9Zbnfj]{Wound} critical hit effect (see page 182). If the weapon already has a critical hit effect, when you score a critical hit, you can apply either the weapon’s normal critical hit effect or the @Compendium[sfrpg.rules.O5GDQUKPCJ9Zbnfj]{Wound} effect.&nbsp;</span></p>",
+			"frSource": "RDB p.195",
+			"rangeValue": "",
+			"rangeUnits": "",
+			"areaValue": "",
+			"areaUnits": ""
+		}
+	}
+}
