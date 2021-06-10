@@ -10,13 +10,13 @@
 	{
       "name": "sfrpg",
 	  "type": "system",
-	  "version": "0.9.0.0"
+	  "version": "0.11.3.0"
     },
     {
       "name": "babele",
 	  "type": "module",
 	  "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
-      "version": "1.20"
+      "version": "2.0.2"
     }
   ],
   "esmodules": [
